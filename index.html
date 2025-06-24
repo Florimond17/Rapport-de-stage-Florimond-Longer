@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decathlon - Page d'accueil</title>
+    <link rel="stylesheet" href="homepage.css">
+    <script defer src="homepage.js"></script>
+</head>
+<body>
+    <!-- Section 1 - Background animé -->
+    <section class="section-1" id="section1">
+        <div class="animated-bg" id="animatedBg"></div>
+        <div class="welcome-text">
+            <h1>Bienvenue chez Decathlon</h1>
+            <p>Votre passion pour le sport commence ici</p>
+        </div>
+        <div class="scroll-indicator">↓</div>
+    </section>
+
+    <!-- Section 2 - Card profil -->
+    <section class="section-2" id="section2">
+        <div class="animated-bg-2" id="animatedBg2"></div>
+        <div class="profile-card">
+            <div class="profile-content">
+                <div class="profile-text">
+                    <h2>Résumer du stage</h2>
+                    <p>Le stage se déroule sur la période du 1/06/2025 au 30/08/2025, au Decathlon de Grosley dans le 76,</p>
+                    <p>le Tuteur de stage: Fabien Fernandez Leader Decathlon val d'oise pour les rayons Sport Colectifs et sport d'eau.</p>
+                </div>
+                <div class="profile-image"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3 - Cards services -->
+    <section class="section-3" id="section3">
+        <div class="cards-container">
+            <div class="service-card">
+                <h3>L'entreprise d'Ecathlon</h3>
+                <p class="subtitle">Présentation de l'entreprise : activité, secteur, historique, organisation, pratiques principales.</p>
+                <a href="entreprise.html"><button class="service-btn">Explorer</button></a>
+                <div class="service-image">🏃‍♂️</div>
+            </div>
+            
+            <div class="service-card">
+                <h3>Mon Stage</h3>
+                <p class="subtitle">Information, Feedback, Analyse du stage,  transformation digitale et technologique ainsi que Fiches métier et interviews.</p>
+                <button class="service-btn">Consulter</button>
+                <div class="service-image">💡</div>
+            </div>
+            
+            <div class="service-card">
+                <h3>Mon projet personnel</h3>
+                <p class="subtitle">Les objectifs, Mes missions, Feedback et continuiter professionels.</p>
+                <a href="projet.html"><button class="service-btn">Découvrir</button></a>
+                <div class="service-image">⚙️</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation dots -->
+    <div class="nav-dots">
+        <div class="nav-dot active" data-section="section1"></div>
+        <div class="nav-dot" data-section="section2"></div>
+        <div class="nav-dot" data-section="section3"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
