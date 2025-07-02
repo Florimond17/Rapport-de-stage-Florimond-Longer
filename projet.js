@@ -11,17 +11,27 @@ const missionData = {
         title: "Architecture & Conception",
         content: `
             <div class="modal-details">
-                <h4>🏗️ Conception de l'Architecture Technique</h4>
-                <p>Cette phase cruciale a consisté à définir l'architecture globale du système et la structure des bases de données. J'ai analysé les besoins fonctionnels et techniques pour créer une fondation solide.</p>
+                <h4>🏗️ Accueil candidat</h4>
+                <p>L'accueil candidat était une partie importante de chaque journé en temps que admisseur. En effet nous devions aller chercher les candidats a la gare 
+                les accueilir dans l'esprit de l'école</p>
                 
                 <div class="achievement-highlights">
                     <div class="highlight">
-                        <strong>Technologies utilisées :</strong>
-                        <span>Node.js, PostgreSQL, Redis, Docker</span>
+                        <strong>organisation mise en place :</strong>
+                        <span>Chaque membre de l'équipe logistique était affilié a une tache parmis les taches suivantes :</span>
+                            <ul>
+                                <li>Aller chercher les candidats a la gare.</li>
+                                <li>S'occuper de L'accueil a l'extérieur de l'établissement afin de convergé tout les candidat dans le hall B.</li>
+                                <li>Accueil intérieur pour guidé lescandidats dans la procédure d'enregistrement et leur données des informations sur les potentiel questions.</li>
+                                <li>Scanner les QR code qui justifiait la dit présence du candidat pour la journée.</li>
+                                <li>Le stand informations pour l'explication du déroulement de la journée.</li>
+                                <li>Le stand petit déjeuner, qui était mis en place pour détendre les candidats et discuter avec eux.</li>
+                                <li>Le volant cette personne était la en renfort si au autre poste avait besoin d'aide du a un sur nombre de candidats</li>
+                            </ul>
                     </div>
                     <div class="highlight">
                         <strong>Durée :</strong>
-                        <span>3 mois</span>
+                        <span>tout les matins de 9 h à 12 h</span>
                     </div>
                     <div class="highlight">
                         <strong>Résultat :</strong>
