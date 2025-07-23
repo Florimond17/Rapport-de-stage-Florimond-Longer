@@ -312,99 +312,91 @@
             </div>
         </section>
 
-        <!-- === GALERIE CIRCULAIRE === -->
-        <section class="content-section" id="galerie">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Galerie du Projet</h2>
-                    <div class="section-line"></div>
-                </div>
-                
-                <div class="circular-gallery">
-                    <div class="gallery-center">
-                        <div class="center-content">
-                            <h3>Mon Projet</h3>
-                            <p>En Images</p>
-                        </div>
-                    </div>
-                    
-                    <div class="gallery-orbit orbit-1">
-                        <div class="gallery-item" data-angle="0">
-                            <div class="item-placeholder">📱</div>
-                        </div>
-                        <div class="gallery-item" data-angle="45">
-                            <div class="item-placeholder">💻</div>
-                        </div>
-                        <div class="gallery-item" data-angle="90">
-                            <div class="item-placeholder">🎨</div>
-                        </div>
-                        <div class="gallery-item" data-angle="135">
-                            <div class="item-placeholder">📊</div>
-                        </div>
-                        <div class="gallery-item" data-angle="180">
-                            <div class="item-placeholder">🔧</div>
-                        </div>
-                        <div class="gallery-item" data-angle="225">
-                            <div class="item-placeholder">🚀</div>
-                        </div>
-                        <div class="gallery-item" data-angle="270">
-                            <div class="item-placeholder">⚡</div>
-                        </div>
-                        <div class="gallery-item" data-angle="315">
-                            <div class="item-placeholder">🎯</div>
-                        </div>
-                    </div>
-                    
-                    <div class="gallery-orbit orbit-2">
-                        <div class="gallery-item" data-angle="22.5">
-                            <div class="item-placeholder">🛠️</div>
-                        </div>
-                        <div class="gallery-item" data-angle="67.5">
-                            <div class="item-placeholder">📈</div>
-                        </div>
-                        <div class="gallery-item" data-angle="112.5">
-                            <div class="item-placeholder">🔒</div>
-                        </div>
-                        <div class="gallery-item" data-angle="157.5">
-                            <div class="item-placeholder">🌐</div>
-                        </div>
-                        <div class="gallery-item" data-angle="202.5">
-                            <div class="item-placeholder">💡</div>
-                        </div>
-                        <div class="gallery-item" data-angle="247.5">
-                            <div class="item-placeholder">🎪</div>
-                        </div>
-                        <div class="gallery-item" data-angle="292.5">
-                            <div class="item-placeholder">🌟</div>
-                        </div>
-                        <div class="gallery-item" data-angle="337.5">
-                            <div class="item-placeholder">🎭</div>
-                        </div>
-                    </div>
-                    
-                    <div class="gallery-orbit orbit-3">
-                        <div class="gallery-item" data-angle="30">
-                            <div class="item-placeholder">🏆</div>
-                        </div>
-                        <div class="gallery-item" data-angle="120">
-                            <div class="item-placeholder">🎨</div>
-                        </div>
-                        <div class="gallery-item" data-angle="210">
-                            <div class="item-placeholder">🚀</div>
-                        </div>
-                        <div class="gallery-item" data-angle="300">
-                            <div class="item-placeholder">⭐</div>
-                        </div>
+        <!-- Remplacez votre section galerie actuelle par ce code -->
+<section class="gallery-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Galerie du Projet</h2>
+            <p class="section-subtitle">Mon Projet En Images</p>
+        </div>
+        
+        <div class="circular-gallery-wrapper">
+            <div class="circular-gallery" id="circularGallery">
+                <div class="gallery-item" data-index="0">
+                    <img src="path/to/your/image1.jpg" alt="Architecture du projet" />
+                    <div class="item-info">
+                        <h3>Architecture</h3>
+                        <p>Conception technique</p>
                     </div>
                 </div>
                 
-                <div class="gallery-controls">
-                    <button class="gallery-btn" onclick="pauseRotation()">⏸️ Pause</button>
-                    <button class="gallery-btn" onclick="resumeRotation()">▶️ Play</button>
-                    <button class="gallery-btn" onclick="changeSpeed()">⚡ Vitesse</button>
+                <div class="gallery-item" data-index="1">
+                    <img src="path/to/your/image2.jpg" alt="Interface utilisateur" />
+                    <div class="item-info">
+                        <h3>Frontend</h3>
+                        <p>Interface moderne</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-index="2">
+                    <img src="path/to/your/image3.jpg" alt="Backend développement" />
+                    <div class="item-info">
+                        <h3>Backend</h3>
+                        <p>Services & APIs</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-index="3">
+                    <img src="path/to/your/image4.jpg" alt="Sécurité et tests" />
+                    <div class="item-info">
+                        <h3>Sécurité</h3>
+                        <p>Tests & monitoring</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-index="4">
+                    <img src="path/to/your/image5.jpg" alt="Déploiement" />
+                    <div class="item-info">
+                        <h3>Déploiement</h3>
+                        <p>CI/CD Pipeline</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-index="5">
+                    <img src="path/to/your/image6.jpg" alt="Analytics" />
+                    <div class="item-info">
+                        <h3>Analytics</h3>
+                        <p>Performance & monitoring</p>
+                    </div>
                 </div>
             </div>
-        </section>
+            
+            <!-- Contrôles de navigation -->
+            <div class="gallery-controls">
+                <button class="control-btn prev-btn" id="prevBtn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                <button class="control-btn next-btn" id="nextBtn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+            
+            <!-- Indicateurs de position -->
+            <div class="gallery-indicators" id="galleryIndicators">
+                <span class="indicator active" data-index="0"></span>
+                <span class="indicator" data-index="1"></span>
+                <span class="indicator" data-index="2"></span>
+                <span class="indicator" data-index="3"></span>
+                <span class="indicator" data-index="4"></span>
+                <span class="indicator" data-index="5"></span>
+            </div>
+        </div>
+    </div>
+</section>
     </main>
 
     <!-- === FOOTER === -->
