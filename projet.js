@@ -8,21 +8,21 @@ const quickLinks = document.querySelectorAll('.quick-link');
 // Données pour les modales des réalisations
 const missionData = {
     1: {
-        title: "Architecture & Conception",
+        title: "🏗️ Accueil candidat",
         content: `
             <div class="modal-details">
-                <h4>🏗️ Accueil candidat</h4>
-                <p>L'accueil candidat était une partie importante de chaque journé en temps que admisseur. En effet nous devions aller chercher les candidats a la gare 
-                les accueilir dans l'esprit de l'école</p>
+                <p>L'accueil candidat était une partie importante de chaque journée en tant qu’admisseur. En effet, il s’agissait du premier contact entre l’école et les candidats,
+                 et il était essentiel de créer une atmosphère chaleureuse et rassurante afin de leur permettre de vivre une expérience positive dès leur arrivée. 
+                 Cela impliquait d’être ponctuel, souriant, disponible pour répondre aux questions, et capable de transmettre l’image dynamique et accueillante de l’établissement.</p>
                 
                 <div class="achievement-highlights">
                     <div class="highlight">
                         <strong>organisation mise en place :</strong>
-                        <span>Chaque membre de l'équipe logistique était affilié a une tache parmis les taches suivantes :</span>
+                        <span>Chaque membre de l'équipe logistique était affilié a une tache, et nous changions de poste tout les matins :</span>
                             <ul>
                                 <li>Aller chercher les candidats a la gare.</li>
                                 <li>S'occuper de L'accueil a l'extérieur de l'établissement afin de convergé tout les candidat dans le hall B.</li>
-                                <li>Accueil intérieur pour guidé lescandidats dans la procédure d'enregistrement et leur données des informations sur les potentiel questions.</li>
+                                <li>Accueil intérieur pour guidé les candidats dans la procédure d'enregistrement et leur données des informations sur les potentiel questions.</li>
                                 <li>Scanner les QR code qui justifiait la dit présence du candidat pour la journée.</li>
                                 <li>Le stand informations pour l'explication du déroulement de la journée.</li>
                                 <li>Le stand petit déjeuner, qui était mis en place pour détendre les candidats et discuter avec eux.</li>
@@ -35,85 +35,64 @@ const missionData = {
                     </div>
                     <div class="highlight">
                         <strong>Résultat :</strong>
-                        <span>Architecture scalable supportant 10k+ utilisateurs simultanés</span>
+                        <span>Des avis positifs et une journée inoubliable pour chaque candidats.</span>
                     </div>
                 </div>
                 
                 <div class="technical-details">
                     <h5>Défis relevés :</h5>
                     <ul>
-                        <li>Conception d'une architecture microservices</li>
-                        <li>Optimisation des requêtes base de données</li>
-                        <li>Mise en place d'un système de cache distribué</li>
-                        <li>Planification de la montée en charge</li>
+                        <li>Ne pas perdre et oublié des candidats a la gare.</li>
+                        <li>Gérer les candidats en retard ou perdu.</li>
+                        <li>Prise en charges des parents.</li>
+                        <li>Les faire patienter en attendant l'arrivé de tout le monde pour commencer la journée.</li>
                     </ul>
                 </div>
             </div>
         `
     },
     2: {
-        title: "Développement Frontend",
+        title: "💻 Conseil",
         content: `
             <div class="modal-details">
-                <h4>💻 Création d'Interfaces Modernes</h4>
-                <p>Développement d'interfaces utilisateur responsives et intuitives en utilisant les dernières technologies frontend. Focus sur l'expérience utilisateur et les performances.</p>
-                
-                <div class="achievement-highlights">
-                    <div class="highlight">
-                        <strong>Technologies utilisées :</strong>
-                        <span>React, TypeScript, Sass, Webpack</span>
-                    </div>
-                    <div class="highlight">
-                        <strong>Durée :</strong>
-                        <span>4 mois</span>
-                    </div>
-                    <div class="highlight">
-                        <strong>Résultat :</strong>
-                        <span>Interface responsive avec score Lighthouse > 95</span>
-                    </div>
-                </div>
+                <p>L’un des aspects les plus importants du rôle des admisseurs réside dans l’accompagnement des candidats, au-delà de la simple logistique de la journée. Ce rôle peut survenir à tout moment, souvent de manière spontanée, au détour d’une conversation avec un admissible.
+                    Il s’agit d’un moment délicat, car il implique d’entrer, parfois sans s’y attendre, dans une certaine forme d’intimité avec le candidat. Ce dernier exprime souvent ses doutes, ses hésitations, et cherche avant tout un regard bienveillant ou un conseil rassurant.
+                    Toute la difficulté réside alors dans l’équilibre à trouver : il ne s’agit pas de l’influencer ou de prendre une décision à sa place, mais de lui offrir un espace d’écoute, de l’aider à formuler ses propres réflexions, et de lui présenter de manière neutre et objective les différentes options qui s’offrent à lui.
+                    Dans ces échanges, l’admisseur devient un véritable point d’appui temporaire. Ce rôle demande de la sensibilité, de la discrétion et une grande capacité d’adaptation pour répondre à des situations parfois très personnelles, tout en restant fidèle à une posture de neutralité.</p>
                 
                 <div class="technical-details">
-                    <h5>Fonctionnalités développées :</h5>
+                    <h5>exemples de conseil que j'ai rencontrer :</h5>
                     <ul>
-                        <li>Dashboard interactif avec graphiques en temps réel</li>
-                        <li>Système de notifications push</li>
-                        <li>Interface mobile-first responsive</li>
-                        <li>Animations et micro-interactions fluides</li>
+                        <li>Une étudiante m’a confié avoir grandi dans un milieu où l’on lui avait toujours enseigné que seule une classe préparatoire était une voie possible pour son avenir.
+                            Elle m’a avoué ne pas se sentir capable d’en suivre une, c’est pourquoi elle se retrouvait à passer les concours post-bac.
+                            Je ne pouvais pas donner mon avis sur la question, car cela aurait pu influencer son choix. Je lui ai donc présenté des exemples concrets des deux parcours qui s’offraient à elle : soit elle intégrait une prépa pour ensuite rejoindre une grande école via les admissions parallèles, soit elle choisissait directement une formation post-bac, ce qui lui permettrait de vivre d'autres expériences tout en avançant dans son parcours.
+                            À la fin de notre conversation, je l’ai sentie plus confiante et elle semblait avoir fait un pas vers la décision qui lui correspondait le mieux.</li>
+                        <li>Un autre exemple fréquent que j’ai rencontré au cours de mes journées en tant qu’admisseur concerne les candidats hésitant entre plusieurs écoles du concours SESAME. L’un d’eux, par exemple, doutait entre deux établissements et me demandait mon avis pour l’aider à trancher.
+                            Dans ce type de situation, mon rôle est de valoriser NEOMA sans jamais dénigrer les autres écoles. Il est essentiel de rester professionnel et objectif, tout en mettant en avant les points forts de mon établissement.
+                            Pour cela, je prends le temps d’écouter le candidat, de comprendre ce qui le motive, ce qu’il recherche dans une école, et quelles sont ses priorités (vie associative, spécialisation, ouverture à l’international, ambiance, etc.).
+                            Une fois ses attentes identifiées, je peux mieux cibler les éléments de l’offre NEOMA qui pourraient y répondre, en lui présentant les spécificités du programme, les opportunités à l’étranger, ou encore la richesse de la vie étudiante.
+                            Cet échange permet souvent au candidat de mieux se projeter, tout en lui laissant la liberté de faire un choix éclairé, basé sur ses propres critères.</li>
                     </ul>
                 </div>
             </div>
         `
     },
     3: {
-        title: "Backend & API",
+        title: "⚙️ Vente",
         content: `
             <div class="modal-details">
-                <h4>⚙️ Services Backend Robustes</h4>
-                <p>Développement d'une API RESTful complète avec authentification, gestion des données, et services métier. Architecture orientée services pour une maintenance optimale.</p>
-                
-                <div class="achievement-highlights">
-                    <div class="highlight">
-                        <strong>Technologies utilisées :</strong>
-                        <span>Node.js, Express, JWT, Mongoose</span>
-                    </div>
-                    <div class="highlight">
-                        <strong>Durée :</strong>
-                        <span>5 mois</span>
-                    </div>
-                    <div class="highlight">
-                        <strong>Résultat :</strong>
-                        <span>API complète avec 50+ endpoints documentés</span>
-                    </div>
-                </div>
-                
-                <div class="technical-details">
-                    <h5>Services développés :</h5>
+                <p>En tant qu’admisseur chez NEOMA, l’une des missions principales est de représenter l’école et de contribuer à sa promotion auprès des candidats admissibles. Cela implique une véritable posture de "vente", dans le sens noble du terme : il s’agit de valoriser l’établissement, ses programmes, ses valeurs et son environnement, tout en répondant aux attentes spécifiques des candidats.
+                    Cette mission demande de bien connaître les atouts de NEOMA (international, excellence académique, vie associative, réseau d’alumni, etc.) afin de les mettre en avant de manière adaptée à chaque profil. Elle repose sur une écoute active : comprendre les motivations, les doutes ou les objectifs d’un candidat permet de mieux orienter le discours et de montrer en quoi NEOMA peut répondre à ses ambitions.
+                    L’objectif n’est pas de convaincre à tout prix, mais de donner envie, d’éclairer les choix, et surtout de transmettre une image authentique et positive de l’école. Dans ce cadre, l’admisseur devient un véritable ambassadeur, jouant un rôle-clé dans l’attractivité de NEOMA.
+                </p>
+
+                 <div class="technical-details">
+                    <h5>Connaisance essentiel :</h5>
                     <ul>
-                        <li>Système d'authentification sécurisé (JWT + 2FA)</li>
-                        <li>API de gestion des utilisateurs et permissions</li>
-                        <li>Service de notifications en temps réel</li>
-                        <li>Intégration avec services tiers (paiement, email)</li>
+                        <li>Le programme BBA voie Générale et la voie Doubles diplomes</li>
+                        <li>Le programme TEMA avec ces spécificités et des débouchés</li>
+                        <li>Des différentes associations</li>
+                        <li>De l'influence de l'école et des différentes services quelle propose </li>
                     </ul>
                 </div>
             </div>
@@ -457,71 +436,307 @@ function closeMissionModal() {
     }, 300);
 }
 
-// === GALERIE CIRCULAIRE ===
-function initializeCircularGallery() {
-    const gallery = document.querySelector('.circular-gallery');
-    if (!gallery) return;
-    
-    startGalleryRotation();
-    
-    // Pause au survol
-    gallery.addEventListener('mouseenter', () => {
-        if (!isGalleryPaused) {
-            pauseRotation();
-        }
-    });
-    
-    gallery.addEventListener('mouseleave', () => {
-        if (!isGalleryPaused) {
-            resumeRotation();
-        }
-    });
-}
-
-function startGalleryRotation() {
-    const orbits = document.querySelectorAll('.gallery-orbit');
-    
-    orbits.forEach((orbit, index) => {
-        const direction = index % 2 === 0 ? 1 : -1;
-        const speed = (index + 1) * 20 * gallerySpeed;
+// JavaScript pour la galerie circulaire
+class CircularGallery {
+    constructor() {
+        this.gallery = document.getElementById('circularGallery');
+        this.items = document.querySelectorAll('.gallery-item');
+        this.indicators = document.querySelectorAll('.indicator');
+        this.prevBtn = document.getElementById('prevBtn');
+        this.nextBtn = document.getElementById('nextBtn');
         
-        orbit.style.animation = `rotate${direction > 0 ? 'Clockwise' : 'Counter'} ${speed}s linear infinite`;
-    });
-}
-
-function pauseRotation() {
-    const orbits = document.querySelectorAll('.gallery-orbit');
-    orbits.forEach(orbit => {
-        orbit.style.animationPlayState = 'paused';
-    });
-    isGalleryPaused = true;
-}
-
-function resumeRotation() {
-    const orbits = document.querySelectorAll('.gallery-orbit');
-    orbits.forEach(orbit => {
-        orbit.style.animationPlayState = 'running';
-    });
-    isGalleryPaused = false;
-}
-
-function changeSpeed() {
-    gallerySpeed = gallerySpeed === 1 ? 0.5 : gallerySpeed === 0.5 ? 2 : 1;
-    
-    if (!isGalleryPaused) {
-        startGalleryRotation();
+        this.currentIndex = 0;
+        this.totalItems = this.items.length;
+        this.isAnimating = false;
+        this.autoRotateInterval = null;
+        this.autoRotateDelay = 4000; // 4 secondes
+        
+        this.init();
     }
     
-    // Feedback visuel
-    const speedBtn = document.querySelector('.gallery-btn[onclick="changeSpeed()"]');
-    if (speedBtn) {
-        const speedText = gallerySpeed === 0.5 ? 'Lent' : gallerySpeed === 2 ? 'Rapide' : 'Normal';
-        speedBtn.textContent = `⚡ ${speedText}`;
+    init() {
+        this.setupEventListeners();
+        this.updateGallery();
+        this.startAutoRotate();
         
+        // Pause auto-rotation on hover
+        this.gallery.addEventListener('mouseenter', () => this.pauseAutoRotate());
+        this.gallery.addEventListener('mouseleave', () => this.startAutoRotate());
+    }
+    
+    setupEventListeners() {
+        // Boutons de navigation
+        this.prevBtn.addEventListener('click', () => this.previousItem());
+        this.nextBtn.addEventListener('click', () => this.nextItem());
+        
+        // Indicateurs
+        this.indicators.forEach((indicator, index) => {
+            indicator.addEventListener('click', () => this.goToItem(index));
+        });
+        
+        // Clic sur les items
+        this.items.forEach((item, index) => {
+            item.addEventListener('click', () => {
+                if (index !== this.currentIndex) {
+                    this.goToItem(index);
+                } else {
+                    this.handleItemClick(item);
+                }
+            });
+        });
+        
+        // Navigation au clavier
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowLeft') {
+                e.preventDefault();
+                this.previousItem();
+            } else if (e.key === 'ArrowRight') {
+                e.preventDefault();
+                this.nextItem();
+            }
+        });
+        
+        // Touch/swipe support pour mobile
+        this.setupTouchEvents();
+    }
+    
+    setupTouchEvents() {
+        let startX = 0;
+        let startY = 0;
+        let isTouch = false;
+        
+        this.gallery.addEventListener('touchstart', (e) => {
+            startX = e.touches[0].clientX;
+            startY = e.touches[0].clientY;
+            isTouch = true;
+        }, { passive: true });
+        
+        this.gallery.addEventListener('touchmove', (e) => {
+            if (!isTouch) return;
+            e.preventDefault();
+        }, { passive: false });
+        
+        this.gallery.addEventListener('touchend', (e) => {
+            if (!isTouch) return;
+            
+            const endX = e.changedTouches[0].clientX;
+            const endY = e.changedTouches[0].clientY;
+            const deltaX = endX - startX;
+            const deltaY = endY - startY;
+            
+            // Vérifier si c'est un swipe horizontal
+            if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 50) {
+                if (deltaX > 0) {
+                    this.previousItem();
+                } else {
+                    this.nextItem();
+                }
+            }
+            
+            isTouch = false;
+        }, { passive: true });
+    }
+    
+    nextItem() {
+        if (this.isAnimating) return;
+        this.currentIndex = (this.currentIndex + 1) % this.totalItems;
+        this.updateGallery();
+    }
+    
+    previousItem() {
+        if (this.isAnimating) return;
+        this.currentIndex = (this.currentIndex - 1 + this.totalItems) % this.totalItems;
+        this.updateGallery();
+    }
+    
+    goToItem(index) {
+        if (this.isAnimating || index === this.currentIndex) return;
+        this.currentIndex = index;
+        this.updateGallery();
+    }
+    
+    updateGallery() {
+        this.isAnimating = true;
+        
+        // Calculer l'angle de rotation
+        const angle = -(this.currentIndex * (360 / this.totalItems));
+        
+        // Appliquer la rotation à la galerie
+        this.gallery.style.transform = `rotate(${angle}deg)`;
+        
+        // Mettre à jour les items
+        this.items.forEach((item, index) => {
+            // Calculer l'angle de l'item pour le garder droit
+            const itemAngle = (index * (360 / this.totalItems)) + angle;
+            item.style.transform = `rotate(${-itemAngle}deg)`;
+            
+            // Gérer les classes active
+            item.classList.toggle('active', index === this.currentIndex);
+            
+            // Ajouter un effet de profondeur
+            const distance = Math.abs(index - this.currentIndex);
+            const minDistance = Math.min(distance, this.totalItems - distance);
+            const opacity = 1 - (minDistance * 0.2);
+            const scale = 1 - (minDistance * 0.1);
+            
+            item.style.opacity = opacity;
+            if (index !== this.currentIndex) {
+                item.style.transform += ` scale(${scale})`;
+            }
+        });
+        
+        // Mettre à jour les indicateurs
+        this.indicators.forEach((indicator, index) => {
+            indicator.classList.toggle('active', index === this.currentIndex);
+        });
+        
+        // Animation terminée
         setTimeout(() => {
-            speedBtn.textContent = '⚡ Vitesse';
-        }, 1000);
+            this.isAnimating = false;
+        }, 800);
     }
+    
+    handleItemClick(item) {
+        // Ajouter un effet de clic
+        item.style.transform += ' scale(0.95)';
+        setTimeout(() => {
+            this.updateGallery();
+        }, 150);
+        
+        // Vous pouvez ajouter ici d'autres actions (modal, zoom, etc.)
+        console.log('Item cliqué:', item.querySelector('h3').textContent);
+    }
+    
+    startAutoRotate() {
+        this.pauseAutoRotate();
+        this.autoRotateInterval = setInterval(() => {
+            this.nextItem();
+        }, this.autoRotateDelay);
+    }
+    
+    pauseAutoRotate() {
+        if (this.autoRotateInterval) {
+            clearInterval(this.autoRotateInterval);
+            this.autoRotateInterval = null;
+        }
+    }
+    
+    // Méthode pour ajouter dynamiquement des items
+    addItem(imageSrc, title, description) {
+        const newItem = document.createElement('div');
+        newItem.className = 'gallery-item';
+        newItem.setAttribute('data-index', this.totalItems);
+        
+        newItem.innerHTML = `
+            <img src="${imageSrc}" alt="${title}" />
+            <div class="item-info">
+                <h3>${title}</h3>
+                <p>${description}</p>
+            </div>
+        `;
+        
+        this.gallery.appendChild(newItem);
+        
+        // Ajouter un indicateur
+        const newIndicator = document.createElement('span');
+        newIndicator.className = 'indicator';
+        newIndicator.setAttribute('data-index', this.totalItems);
+        document.getElementById('galleryIndicators').appendChild(newIndicator);
+        
+        this.totalItems++;
+        this.items = document.querySelectorAll('.gallery-item');
+        this.indicators = document.querySelectorAll('.indicator');
+        
+        // Reconfigurer les événements
+        this.setupEventListeners();
+        this.repositionItems();
+    }
+    
+    repositionItems() {
+        const angleStep = 360 / this.totalItems;
+        this.items.forEach((item, index) => {
+            const angle = index * angleStep;
+            const radian = (angle * Math.PI) / 180;
+            const radius = 200; // Ajustez selon vos besoins
+            
+            const x = Math.sin(radian) * radius;
+            const y = -Math.cos(radian) * radius;
+            
+            item.style.left = `calc(50% + ${x}px)`;
+            item.style.top = `calc(50% + ${y}px)`;
+            item.style.transform = 'translate(-50%, -50%)';
+        });
+    }
+    
+    // Méthodes utilitaires
+    getCurrentItem() {
+        return this.items[this.currentIndex];
+    }
+    
+    getTotalItems() {
+        return this.totalItems;
+    }
+    
+    getCurrentIndex() {
+        return this.currentIndex;
+    }
+}
+
+// Initialisation de la galerie quand le DOM est chargé
+document.addEventListener('DOMContentLoaded', () => {
+    // Vérifier si la galerie existe sur la page
+    if (document.getElementById('circularGallery')) {
+        const gallery = new CircularGallery();
+        
+        // Exposer l'instance globalement si nécessaire
+        window.circularGallery = gallery;
+        
+        // Ajouter des animations d'entrée
+        setTimeout(() => {
+            document.querySelector('.circular-gallery-wrapper').style.opacity = '1';
+            document.querySelector('.circular-gallery-wrapper').style.transform = 'translateY(0)';
+        }, 100);
+    }
+});
+
+// Fonction utilitaire pour lazy loading des images
+function setupLazyLoading() {
+    const images = document.querySelectorAll('.gallery-item img');
+    
+    const imageObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const img = entry.target;
+                img.src = img.dataset.src || img.src;
+                img.classList.remove('lazy');
+                observer.unobserve(img);
+            }
+        });
+    });
+    
+    images.forEach(img => {
+        imageObserver.observe(img);
+    });
+}
+
+// Gestion du redimensionnement de la fenêtre
+window.addEventListener('resize', debounce(() => {
+    if (window.circularGallery) {
+        window.circularGallery.updateGallery();
+    }
+}, 250));
+
+// Fonction utilitaire de debounce
+function debounce(func, wait) {
+    let timeout;
+    return function executedFunction(...args) {
+        const later = () => {
+            clearTimeout(timeout);
+            func(...args);
+        };
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+    };
 }
 
 // === MENU MOBILE ===
