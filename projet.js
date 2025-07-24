@@ -86,7 +86,7 @@ const missionData = {
                     L’objectif n’est pas de convaincre à tout prix, mais de donner envie, d’éclairer les choix, et surtout de transmettre une image authentique et positive de l’école. Dans ce cadre, l’admisseur devient un véritable ambassadeur, jouant un rôle-clé dans l’attractivité de NEOMA.
                 </p>
 
-                 <div class="technical-details">
+ <div class="technical-details">
                     <h5>Connaisance essentiel :</h5>
                     <ul>
                         <li>Le programme BBA voie Générale et la voie Doubles diplomes</li>
@@ -99,102 +99,60 @@ const missionData = {
         `
     },
     4: {
-        title: "Sécurité & Tests",
+        title: "🔒 Représentant du programme TEMA",
         content: `
             <div class="modal-details">
-                <h4>🔒 Sécurisation et Qualité</h4>
-                <p>Implémentation des meilleures pratiques de sécurité et mise en place d'une suite de tests complète pour garantir la fiabilité du système.</p>
-                
-                <div class="achievement-highlights">
-                    <div class="highlight">
-                        <strong>Technologies utilisées :</strong>
-                        <span>Jest, Cypress, Helmet, bcrypt</span>
-                    </div>
-                    <div class="highlight">
-                        <strong>Durée :</strong>
-                        <span>2 mois</span>
-                    </div>
-                    <div class="highlight">
-                        <strong>Résultat :</strong>
-                        <span>Couverture de tests > 90%, Sécurité OWASP</span>
-                    </div>
-                </div>
+                <p>La promotion du programme TEMA faisait partie de mes missions les plus importantes, car la promotion 2024-2025 était la toute première sur le campus de Rouen.
+                Nous n’étions que deux étudiants du programme TEMA à faire partie de l’équipe des admisseurs. Les autres admisseurs connaissaient peu le programme et n’étaient pas à l’aise pour en parler.<p>
+                <p>De ce fait, à chaque fois qu’un(e) candidat(e) manifestait de l’intérêt pour le programme, c’était à moi de répondre à ses questions. Il m’est arrivé à plusieurs reprises d’avoir 5 à 6 candidats en face de moi, me posant de nombreuses questions sur le contenu du programme, les débouchés ou encore la vie étudiante.</p>
                 
                 <div class="technical-details">
-                    <h5>Mesures implémentées :</h5>
+                    <h5>Rôle particulier :</h5>
                     <ul>
-                        <li>Tests unitaires et d'intégration automatisés</li>
-                        <li>Chiffrement des données sensibles</li>
-                        <li>Protection contre les attaques OWASP Top 10</li>
-                        <li>Audit de sécurité et penetration testing</li>
+                        <li>être appelé a chaque intérogation des étudiants</li>
+                        <li>Représanté le programme au prets des autres admisseurs</li>
+                        <li>Faire un sptich durant l'amphie de présentation sur mon expérience du programme</li>
                     </ul>
                 </div>
             </div>
         `
     },
     5: {
-        title: "Déploiement & CI/CD",
+        title: "🚀 Animation",
         content: `
             <div class="modal-details">
-                <h4>🚀 Infrastructure et Automatisation</h4>
-                <p>Mise en place d'une infrastructure cloud scalable avec pipeline de déploiement automatisé. Configuration de monitoring et alertes pour assurer la disponibilité.</p>
+                <p>Une autre de mes missions, bien que moins centrale, consistait à animer ponctuellement certaines activités proposées aux candidats admissibles.</p>
                 
                 <div class="achievement-highlights">
                     <div class="highlight">
-                        <strong>Technologies utilisées :</strong>
-                        <span>AWS, Docker, GitHub Actions, Nginx</span>
+                        <strong>Ces animations avaient pour objectif de créer un moment convivial permettant aux candidats de mieux faire connaissance avec nous.</strong>
+                        <span>Ce temps d’échange informel était également l’occasion de détendre l’atmosphère et de renforcer les liens entre admissibles et admisseurs.</span>
                     </div>
-                    <div class="highlight">
-                        <strong>Durée :</strong>
-                        <span>2 mois</span>
-                    </div>
-                    <div class="highlight">
-                        <strong>Résultat :</strong>
-                        <span>Déploiement automatisé avec 99.9% uptime</span>
-                    </div>
-                </div>
-                
-                <div class="technical-details">
-                    <h5>Infrastructure mise en place :</h5>
-                    <ul>
-                        <li>Conteneurisation complète avec Docker</li>
-                        <li>Pipeline CI/CD avec tests automatisés</li>
-                        <li>Load balancing et auto-scaling</li>
-                        <li>Sauvegarde automatique et disaster recovery</li>
-                    </ul>
                 </div>
             </div>
         `
     },
     6: {
-        title: "Analytics & Monitoring",
+        title: "📊 Organisation",
         content: `
             <div class="modal-details">
-                <h4>📊 Surveillance et Optimisation</h4>
-                <p>Implémentation d'un système complet de monitoring et d'analytics pour suivre les performances, détecter les problèmes et optimiser l'expérience utilisateur.</p>
-                
-                <div class="achievement-highlights">
-                    <div class="highlight">
-                        <strong>Technologies utilisées :</strong>
-                        <span>Grafana, Prometheus, Google Analytics, Sentry</span>
-                    </div>
-                    <div class="highlight">
-                        <strong>Durée :</strong>
-                        <span>2 mois</span>
-                    </div>
+                <p>L’organisation des après-midis représentait la partie la plus complexe et la plus importante de chaque journée.
+Nous avions mis en place un tableau regroupant l’ensemble des informations essentielles : les horaires de passage, l’attribution des salles, ainsi que les affectations des étudiants.
+
+Pour assurer un bon déroulement, nous communiquions en continu via un groupe privé, ce qui nous permettait de faire circuler rapidement les informations, notamment en cas de retard ou lorsqu’un candidat était introuvable. Cette coordination était essentielle pour garantir la fluidité du planning et éviter les perturbations.</p>
                     <div class="highlight">
                         <strong>Résultat :</strong>
-                        <span>Dashboard temps réel avec alertes automatiques</span>
+                        <span>L’équipe pédagogique s’est montrée ravie qu’aucun retard n’ait été constaté durant toute la période, et l’équipe des admissions a également exprimé sa satisfaction qu’aucun incident n’ait été signalé.</span>
                     </div>
                 </div>
                 
                 <div class="technical-details">
-                    <h5>Métriques surveillées :</h5>
+                    <h5>Organisation</h5>
                     <ul>
-                        <li>Performance et temps de réponse</li>
-                        <li>Utilisation des ressources système</li>
-                        <li>Comportement utilisateur et conversion</li>
-                        <li>Détection proactive des erreurs</li>
+                        <li>2 étudiants au tableau a lister les candidats</li>
+                        <li>3 étudiants dans le hall a appeler les vagues horraires et les étudiants en retard</li>
+                        <li>7 étudiants a faire des allé retours dans les étages pour déposer les adilissbles dans leurs salles de concours</li>
+                        <li>1 étudiant par étage pour discuter avec les admissibles qui patientais</li>
                     </ul>
                 </div>
             </div>
@@ -436,308 +394,7 @@ function closeMissionModal() {
     }, 300);
 }
 
-// JavaScript pour la galerie circulaire
-class CircularGallery {
-    constructor() {
-        this.gallery = document.getElementById('circularGallery');
-        this.items = document.querySelectorAll('.gallery-item');
-        this.indicators = document.querySelectorAll('.indicator');
-        this.prevBtn = document.getElementById('prevBtn');
-        this.nextBtn = document.getElementById('nextBtn');
-        
-        this.currentIndex = 0;
-        this.totalItems = this.items.length;
-        this.isAnimating = false;
-        this.autoRotateInterval = null;
-        this.autoRotateDelay = 4000; // 4 secondes
-        
-        this.init();
-    }
-    
-    init() {
-        this.setupEventListeners();
-        this.updateGallery();
-        this.startAutoRotate();
-        
-        // Pause auto-rotation on hover
-        this.gallery.addEventListener('mouseenter', () => this.pauseAutoRotate());
-        this.gallery.addEventListener('mouseleave', () => this.startAutoRotate());
-    }
-    
-    setupEventListeners() {
-        // Boutons de navigation
-        this.prevBtn.addEventListener('click', () => this.previousItem());
-        this.nextBtn.addEventListener('click', () => this.nextItem());
-        
-        // Indicateurs
-        this.indicators.forEach((indicator, index) => {
-            indicator.addEventListener('click', () => this.goToItem(index));
-        });
-        
-        // Clic sur les items
-        this.items.forEach((item, index) => {
-            item.addEventListener('click', () => {
-                if (index !== this.currentIndex) {
-                    this.goToItem(index);
-                } else {
-                    this.handleItemClick(item);
-                }
-            });
-        });
-        
-        // Navigation au clavier
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'ArrowLeft') {
-                e.preventDefault();
-                this.previousItem();
-            } else if (e.key === 'ArrowRight') {
-                e.preventDefault();
-                this.nextItem();
-            }
-        });
-        
-        // Touch/swipe support pour mobile
-        this.setupTouchEvents();
-    }
-    
-    setupTouchEvents() {
-        let startX = 0;
-        let startY = 0;
-        let isTouch = false;
-        
-        this.gallery.addEventListener('touchstart', (e) => {
-            startX = e.touches[0].clientX;
-            startY = e.touches[0].clientY;
-            isTouch = true;
-        }, { passive: true });
-        
-        this.gallery.addEventListener('touchmove', (e) => {
-            if (!isTouch) return;
-            e.preventDefault();
-        }, { passive: false });
-        
-        this.gallery.addEventListener('touchend', (e) => {
-            if (!isTouch) return;
-            
-            const endX = e.changedTouches[0].clientX;
-            const endY = e.changedTouches[0].clientY;
-            const deltaX = endX - startX;
-            const deltaY = endY - startY;
-            
-            // Vérifier si c'est un swipe horizontal
-            if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 50) {
-                if (deltaX > 0) {
-                    this.previousItem();
-                } else {
-                    this.nextItem();
-                }
-            }
-            
-            isTouch = false;
-        }, { passive: true });
-    }
-    
-    nextItem() {
-        if (this.isAnimating) return;
-        this.currentIndex = (this.currentIndex + 1) % this.totalItems;
-        this.updateGallery();
-    }
-    
-    previousItem() {
-        if (this.isAnimating) return;
-        this.currentIndex = (this.currentIndex - 1 + this.totalItems) % this.totalItems;
-        this.updateGallery();
-    }
-    
-    goToItem(index) {
-        if (this.isAnimating || index === this.currentIndex) return;
-        this.currentIndex = index;
-        this.updateGallery();
-    }
-    
-    updateGallery() {
-        this.isAnimating = true;
-        
-        // Calculer l'angle de rotation
-        const angle = -(this.currentIndex * (360 / this.totalItems));
-        
-        // Appliquer la rotation à la galerie
-        this.gallery.style.transform = `rotate(${angle}deg)`;
-        
-        // Mettre à jour les items
-        this.items.forEach((item, index) => {
-            // Calculer l'angle de l'item pour le garder droit
-            const itemAngle = (index * (360 / this.totalItems)) + angle;
-            item.style.transform = `rotate(${-itemAngle}deg)`;
-            
-            // Gérer les classes active
-            item.classList.toggle('active', index === this.currentIndex);
-            
-            // Ajouter un effet de profondeur
-            const distance = Math.abs(index - this.currentIndex);
-            const minDistance = Math.min(distance, this.totalItems - distance);
-            const opacity = 1 - (minDistance * 0.2);
-            const scale = 1 - (minDistance * 0.1);
-            
-            item.style.opacity = opacity;
-            if (index !== this.currentIndex) {
-                item.style.transform += ` scale(${scale})`;
-            }
-        });
-        
-        // Mettre à jour les indicateurs
-        this.indicators.forEach((indicator, index) => {
-            indicator.classList.toggle('active', index === this.currentIndex);
-        });
-        
-        // Animation terminée
-        setTimeout(() => {
-            this.isAnimating = false;
-        }, 800);
-    }
-    
-    handleItemClick(item) {
-        // Ajouter un effet de clic
-        item.style.transform += ' scale(0.95)';
-        setTimeout(() => {
-            this.updateGallery();
-        }, 150);
-        
-        // Vous pouvez ajouter ici d'autres actions (modal, zoom, etc.)
-        console.log('Item cliqué:', item.querySelector('h3').textContent);
-    }
-    
-    startAutoRotate() {
-        this.pauseAutoRotate();
-        this.autoRotateInterval = setInterval(() => {
-            this.nextItem();
-        }, this.autoRotateDelay);
-    }
-    
-    pauseAutoRotate() {
-        if (this.autoRotateInterval) {
-            clearInterval(this.autoRotateInterval);
-            this.autoRotateInterval = null;
-        }
-    }
-    
-    // Méthode pour ajouter dynamiquement des items
-    addItem(imageSrc, title, description) {
-        const newItem = document.createElement('div');
-        newItem.className = 'gallery-item';
-        newItem.setAttribute('data-index', this.totalItems);
-        
-        newItem.innerHTML = `
-            <img src="${imageSrc}" alt="${title}" />
-            <div class="item-info">
-                <h3>${title}</h3>
-                <p>${description}</p>
-            </div>
-        `;
-        
-        this.gallery.appendChild(newItem);
-        
-        // Ajouter un indicateur
-        const newIndicator = document.createElement('span');
-        newIndicator.className = 'indicator';
-        newIndicator.setAttribute('data-index', this.totalItems);
-        document.getElementById('galleryIndicators').appendChild(newIndicator);
-        
-        this.totalItems++;
-        this.items = document.querySelectorAll('.gallery-item');
-        this.indicators = document.querySelectorAll('.indicator');
-        
-        // Reconfigurer les événements
-        this.setupEventListeners();
-        this.repositionItems();
-    }
-    
-    repositionItems() {
-        const angleStep = 360 / this.totalItems;
-        this.items.forEach((item, index) => {
-            const angle = index * angleStep;
-            const radian = (angle * Math.PI) / 180;
-            const radius = 200; // Ajustez selon vos besoins
-            
-            const x = Math.sin(radian) * radius;
-            const y = -Math.cos(radian) * radius;
-            
-            item.style.left = `calc(50% + ${x}px)`;
-            item.style.top = `calc(50% + ${y}px)`;
-            item.style.transform = 'translate(-50%, -50%)';
-        });
-    }
-    
-    // Méthodes utilitaires
-    getCurrentItem() {
-        return this.items[this.currentIndex];
-    }
-    
-    getTotalItems() {
-        return this.totalItems;
-    }
-    
-    getCurrentIndex() {
-        return this.currentIndex;
-    }
-}
 
-// Initialisation de la galerie quand le DOM est chargé
-document.addEventListener('DOMContentLoaded', () => {
-    // Vérifier si la galerie existe sur la page
-    if (document.getElementById('circularGallery')) {
-        const gallery = new CircularGallery();
-        
-        // Exposer l'instance globalement si nécessaire
-        window.circularGallery = gallery;
-        
-        // Ajouter des animations d'entrée
-        setTimeout(() => {
-            document.querySelector('.circular-gallery-wrapper').style.opacity = '1';
-            document.querySelector('.circular-gallery-wrapper').style.transform = 'translateY(0)';
-        }, 100);
-    }
-});
-
-// Fonction utilitaire pour lazy loading des images
-function setupLazyLoading() {
-    const images = document.querySelectorAll('.gallery-item img');
-    
-    const imageObserver = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                const img = entry.target;
-                img.src = img.dataset.src || img.src;
-                img.classList.remove('lazy');
-                observer.unobserve(img);
-            }
-        });
-    });
-    
-    images.forEach(img => {
-        imageObserver.observe(img);
-    });
-}
-
-// Gestion du redimensionnement de la fenêtre
-window.addEventListener('resize', debounce(() => {
-    if (window.circularGallery) {
-        window.circularGallery.updateGallery();
-    }
-}, 250));
-
-// Fonction utilitaire de debounce
-function debounce(func, wait) {
-    let timeout;
-    return function executedFunction(...args) {
-        const later = () => {
-            clearTimeout(timeout);
-            func(...args);
-        };
-        clearTimeout(timeout);
-        timeout = setTimeout(later, wait);
-    };
-}
 
 // === MENU MOBILE ===
 function initializeMobileMenu() {
@@ -934,36 +591,7 @@ window.addEventListener('error', function(e) {
     // En production, vous pourriez envoyer l'erreur à un service de monitoring
 });
 
-// === FONCTIONS GLOBALES (pour les boutons HTML) ===
-function toggleGalleryPause() {
-    if (isGalleryPaused) {
-        resumeRotation();
-        const btn = document.querySelector('.gallery-btn[onclick="toggleGalleryPause()"]');
-        if (btn) btn.textContent = '⏸️ Pause';
-    } else {
-        pauseRotation();
-        const btn = document.querySelector('.gallery-btn[onclick="toggleGalleryPause()"]');
-        if (btn) btn.textContent = '▶️ Play';
-    }
-}
 
-function resetGallery() {
-    gallerySpeed = 1;
-    if (!isGalleryPaused) {
-        startGalleryRotation();
-    }
-    
-    const speedBtn = document.querySelector('.gallery-btn[onclick="changeSpeed()"]');
-    if (speedBtn) speedBtn.textContent = '⚡ Vitesse';
-    
-    const resetBtn = document.querySelector('.gallery-btn[onclick="resetGallery()"]');
-    if (resetBtn) {
-        resetBtn.textContent = '🔄 Reset';
-        setTimeout(() => {
-            resetBtn.textContent = '🔄 Reset';
-        }, 1000);
-    }
-}
 
 // === PERFORMANCE ET OPTIMISATION ===
 function optimizePerformance() {
@@ -1314,4 +942,131 @@ window.addEventListener('beforeunload', function() {
     });
     
     console.log('🧹 Nettoyage effectué avant fermeture');
+});
+
+// === GALLERY SCROLL FUNCTIONALITY === 
+document.addEventListener('DOMContentLoaded', function() {
+    const galleryScroll = document.getElementById('galleryScroll');
+    const scrollLeftBtn = document.getElementById('scrollLeft');
+    const scrollRightBtn = document.getElementById('scrollRight');
+    const progressBar = document.getElementById('progressBar');
+    
+    const cardWidth = 320 + 32; // card width + gap
+    
+    // Scroll Left
+    scrollLeftBtn.addEventListener('click', () => {
+        galleryScroll.scrollBy({
+            left: -cardWidth * 2,
+            behavior: 'smooth'
+        });
+    });
+    
+    // Scroll Right
+    scrollRightBtn.addEventListener('click', () => {
+        galleryScroll.scrollBy({
+            left: cardWidth * 2,
+            behavior: 'smooth'
+        });
+    });
+    
+    // Update Progress Bar
+    function updateProgressBar() {
+        const scrollLeft = galleryScroll.scrollLeft;
+        const scrollWidth = galleryScroll.scrollWidth - galleryScroll.clientWidth;
+        const progress = (scrollLeft / scrollWidth) * 100;
+        progressBar.style.width = `${Math.max(20, progress)}%`;
+    }
+    
+    // Progress bar update on scroll
+    galleryScroll.addEventListener('scroll', updateProgressBar);
+    
+    // Touch/Mouse drag scrolling
+    let isDown = false;
+    let startX;
+    let scrollLeftStart;
+    
+    galleryScroll.addEventListener('mousedown', (e) => {
+        isDown = true;
+        galleryScroll.style.cursor = 'grabbing';
+        startX = e.pageX - galleryScroll.offsetLeft;
+        scrollLeftStart = galleryScroll.scrollLeft;
+        e.preventDefault();
+    });
+    
+    galleryScroll.addEventListener('mouseleave', () => {
+        isDown = false;
+        galleryScroll.style.cursor = 'grab';
+    });
+    
+    galleryScroll.addEventListener('mouseup', () => {
+        isDown = false;
+        galleryScroll.style.cursor = 'grab';
+    });
+    
+    galleryScroll.addEventListener('mousemove', (e) => {
+        if (!isDown) return;
+        e.preventDefault();
+        const x = e.pageX - galleryScroll.offsetLeft;
+        const walk = (x - startX) * 2;
+        galleryScroll.scrollLeft = scrollLeftStart - walk;
+    });
+    
+    // Auto-scroll on hover pause
+    let autoScrollInterval;
+    
+    function startAutoScroll() {
+        autoScrollInterval = setInterval(() => {
+            if (galleryScroll.scrollLeft >= galleryScroll.scrollWidth - galleryScroll.clientWidth) {
+                galleryScroll.scrollTo({ left: 0, behavior: 'smooth' });
+            } else {
+                galleryScroll.scrollBy({ left: 1, behavior: 'auto' });
+            }
+        }, 50);
+    }
+    
+    function stopAutoScroll() {
+        clearInterval(autoScrollInterval);
+    }
+    
+    // Start auto-scroll
+    startAutoScroll();
+    
+    // Pause on hover
+    galleryScroll.addEventListener('mouseenter', stopAutoScroll);
+    galleryScroll.addEventListener('mouseleave', startAutoScroll);
+    
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowLeft') {
+            scrollLeftBtn.click();
+        } else if (e.key === 'ArrowRight') {
+            scrollRightBtn.click();
+        }
+    });
+    
+    // Intersection Observer for card animations
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px'
+    };
+    
+    const cardObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = '1';
+                entry.target.style.transform = 'translateY(0)';
+            }
+        });
+    }, observerOptions);
+    
+    // Observe all cards
+    document.querySelectorAll('.gallery-card').forEach(card => {
+        card.style.opacity = '0';
+        card.style.transform = 'translateY(20px)';
+        card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        cardObserver.observe(card);
+    });
+    
+    // Initialize progress bar
+    updateProgressBar();
 });
