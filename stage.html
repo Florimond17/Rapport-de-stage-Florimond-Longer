@@ -3,276 +3,297 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Decathlon - Stage</title>
+    <title>Mon Rapport de Stage - Decathlon</title>
     <link rel="stylesheet" href="stage.css">
     <script defer src="stage.js"></script>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <a href="#accueil">Mon Stage</a>
+    <!-- Header avec navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2>Mon Rapport de Stage</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Accueil</a></li>
+                    <li><a href="#mission" class="nav-link">Mission</a></li>
+                    <li><a href="#interview" class="nav-link">Interview</a></li>
+                    <li><a href="#avis-clients" class="nav-link">Avis Clients</a></li>
+                    <li><a href="#bilan" class="nav-link">Bilan Personnel</a></li>
+                    <li><a href="#transformation" class="nav-link">Transformation Digitale</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="#information" class="nav-link">Information</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#feedback" class="nav-link">Feedback</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#analyse" class="nav-link">Analyse</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#transformation" class="nav-link">Transformation Digitale</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#fiches" class="nav-link">Fiches Métier</a>
-                </li>
-            </ul>
-            <div class="nav-toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <!-- Hero Section -->
-    <section id="accueil" class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">Mon Stage chez Decathlon</h1>
-            <p class="hero-subtitle">Votre passion pour le sport commence ici</p>
-            <div class="hero-info">
-                <div class="info-item">
-                    <i class="fas fa-calendar-alt"></i>
-                    <span>1/06/2025 - 30/08/2025</span>
-                </div>
-                <div class="info-item">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <span>Decathlon Grosley (76)</span>
-                </div>
-                <div class="info-item">
-                    <i class="fas fa-user-tie"></i>
-                    <span>Tuteur: Fabien Fernandez</span>
-                </div>
+    <!-- Section Accueil -->
+    <section id="accueil" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Mon Stage chez Decathlon</h1>
+                <p class="hero-subtitle">Votre passion pour le sport commence ici</p>
             </div>
-        </div>
-        <div class="hero-animation">
-            <div class="decathlon-icon">
-                <i class="fas fa-running"></i>
-            </div>
-        </div>
-    </section>
-
-    <!-- Information Section -->
-    <section id="information" class="section">
-        <div class="container">
-            <h2 class="section-title">Information</h2>
-            <div class="content-grid">
-                <div class="content-card">
-                    <div class="card-header">
-                        <i class="fas fa-building"></i>
-                        <h3>Présentation de l'entreprise</h3>
-                    </div>
-                    <div class="card-content">
-                        <h4>Activité</h4>
-                        <p>Decathlon est une enseigne française de distribution d'articles de sport, créée en 1976. L'entreprise conçoit, produit et distribue des équipements sportifs pour plus de 70 disciplines sportives.</p>
-                        
-                        <h4>Secteur</h4>
-                        <p>Grande distribution spécialisée dans le sport et les loisirs. Leader européen avec plus de 1600 magasins dans 57 pays.</p>
-                        
-                        <h4>Historique</h4>
-                        <p>Fondée par Michel Leclercq à Englos près de Lille, Decathlon s'est développée avec la philosophie de rendre le sport accessible au plus grand nombre.</p>
-                        
-                        <h4>Organisation</h4>
-                        <p>Structure organisée par univers sportifs avec des équipes spécialisées. Le magasin de Grosley est organisé en rayons : Sports Collectifs, Sports d'Eau, Fitness, Outdoor, etc.</p>
-                        
-                        <h4>Pratiques principales</h4>
-                        <ul>
-                            <li>Conseil client personnalisé</li>
-                            <li>Test produits en magasin</li>
-                            <li>Service après-vente intégré</li>
-                            <li>Formation continue des équipes</li>
-                            <li>Innovation produit constante</li>
-                        </ul>
-                    </div>
+            
+            <div class="info-cards">
+                <div class="info-card">
+                    <div class="info-icon">📅</div>
+                    <h3>Dates</h3>
+                    <p>01/06/2025 - 30/08/2025</p>
                 </div>
-                
-                <div class="content-card">
-                    <div class="card-header">
-                        <i class="fas fa-user-graduate"></i>
-                        <h3>Mon Profil Stagiaire</h3>
-                    </div>
-                    <div class="card-content">
-                        <div class="profile-info">
-                            <div class="profile-item">
-                                <strong>Nom:</strong> Florimond Longer
-                            </div>
-                            <div class="profile-item">
-                                <strong>Formation:</strong> [Votre formation]
-                            </div>
-                            <div class="profile-item">
-                                <strong>Établissement:</strong> [Votre établissement]
-                            </div>
-                            <div class="profile-item">
-                                <strong>Durée du stage:</strong> 3 mois (12 semaines)
-                            </div>
-                            <div class="profile-item">
-                                <strong>Tuteur entreprise:</strong> Fabien Fernandez<br>
-                                <em>Leader Decathlon Val d'Oise - Rayons Sports Collectifs et Sports d'Eau</em>
-                            </div>
-                        </div>
-                    </div>
+                <div class="info-card">
+                    <div class="info-icon">📍</div>
+                    <h3>Lieu</h3>
+                    <p>Decathlon Grosley (76)</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">👨‍💼</div>
+                    <h3>Tuteur</h3>
+                    <p>Fabien Fernandez</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Feedback Section -->
-    <section id="feedback" class="section alt-bg">
+
+    <!-- Section Mission -->
+    <section id="mission" class="section">
         <div class="container">
-            <h2 class="section-title">Feedback</h2>
-            <div class="feedback-container">
-                <div class="feedback-card">
-                    <div class="feedback-header">
-                        <i class="fas fa-comment-dots"></i>
-                        <h3>Retours Client</h3>
-                    </div>
-                    <div class="feedback-content">
-                        <div class="feedback-item">
-                            <div class="feedback-quote">
-                                <i class="fas fa-quote-left"></i>
-                                <p>"Excellent conseil pour le choix de mes chaussures de running. Le stagiaire a su m'orienter parfaitement selon mes besoins."</p>
-                                <div class="feedback-author">- Client Sports Running</div>
-                            </div>
-                        </div>
-                        <div class="feedback-item">
-                            <div class="feedback-quote">
-                                <i class="fas fa-quote-left"></i>
-                                <p>"Très bon accompagnement pour l'achat d'équipement de natation. Explications claires et patience remarquable."</p>
-                                <div class="feedback-author">- Client Sports Aquatiques</div>
-                            </div>
-                        </div>
+            <h2 class="section-title">Ma Mission au sein de Decathlon</h2>
+            <div class="mission-content">
+                <!-- Description générale -->
+                <div class="mission-overview">
+                    <div class="mission-description">
+                        <h3>Description du rôle</h3>
+                        <p>Durant mon stage chez Decathlon Grosley, j'ai eu l'opportunité d'intégrer l'équipe commercial et logistique du magasin. Ma mission principale consistait à accompagner les clients dans leurs achats sportifs, gérer les stocks des différents rayons et participer aux projets de digitalisation du point de vente.</p>
+                        
+                        <p>J'ai été impliqué dans plusieurs projets transversaux visant à améliorer l'expérience client et optimiser les processus internes. Cette mission m'a permis de découvrir concrètement le secteur de la grande distribution spécialisée dans le sport.</p>
                     </div>
                 </div>
-                
-                <div class="feedback-card">
-                    <div class="feedback-header">
-                        <i class="fas fa-users"></i>
-                        <h3>Retours Équipe</h3>
-                    </div>
-                    <div class="feedback-content">
-                        <div class="team-feedback">
-                            <div class="team-member">
-                                <div class="member-info">
-                                    <strong>Fabien Fernandez</strong>
-                                    <span>Tuteur de stage</span>
+
+                 <!-- Évolution des missions par période -->
+                <div class="mission-evolution">
+                    <h3>Évolution de mes missions</h3>
+                    <div class="evolution-grid">
+                        <div class="evolution-card debut">
+                            <div class="evolution-header">
+                                <div class="evolution-icon">🎯</div>
+                                <div class="evolution-period">
+                                    <h4>Phase d'intégration</h4>
+                                    <span>Semaines 1-2</span>
                                 </div>
-                                <p>"Florimond s'est rapidement intégré à l'équipe. Son approche analytique et sa capacité d'adaptation sont remarquables. Il a su apporter un regard neuf sur nos processus."</p>
                             </div>
-                            <div class="team-member">
-                                <div class="member-info">
-                                    <strong>Équipe Sports Collectifs</strong>
-                                    <span>Collègues</span>
-                                </div>
-                                <p>"Très bonne collaboration, toujours à l'écoute et force de proposition. Son travail sur la digitalisation nous a fait gagner du temps."</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="feedback-stats">
-                    <h3>Évaluations Quantitatives</h3>
-                    <div class="stats-grid">
-                        <div class="stat-item">
-                            <div class="stat-number">9.5/10</div>
-                            <div class="stat-label">Satisfaction Client</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number">95%</div>
-                            <div class="stat-label">Objectifs Atteints</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number">100%</div>
-                            <div class="stat-label">Assiduité</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number">8.8/10</div>
-                            <div class="stat-label">Évaluation Tuteur</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Analyse Section -->
-    <section id="analyse" class="section">
-        <div class="container">
-            <h2 class="section-title">Analyse du Stage</h2>
-            <div class="analyse-container">
-                <div class="analyse-card">
-                    <div class="card-header">
-                        <i class="fas fa-chart-line"></i>
-                        <h3>Points Forts Identifiés</h3>
-                    </div>
-                    <div class="card-content">
-                        <ul class="points-list">
-                            <li><strong>Expertise produit:</strong> L'équipe Decathlon possède une connaissance approfondie des produits et des besoins clients.</li>
-                            <li><strong>Culture d'entreprise:</strong> Ambiance collaborative et bienveillante, favorisant l'apprentissage.</li>
-                            <li><strong>Innovation continue:</strong> Recherche constante d'amélioration des processus et des services.</li>
-                            <li><strong>Proximité client:</strong> Relation directe et personnalisée avec la clientèle.</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="analyse-card">
-                    <div class="card-header">
-                        <i class="fas fa-exclamation-triangle"></i>
-                        <h3>Axes d'Amélioration</h3>
-                    </div>
-                    <div class="card-content">
-                        <ul class="points-list">
-                            <li><strong>Digitalisation:</strong> Certains processus pourraient être davantage automatisés.</li>
-                            <li><strong>Gestion des stocks:</strong> Optimisation possible du réapprovisionnement.</li>
-                            <li><strong>Communication interne:</strong> Amélioration des outils de communication entre rayons.</li>
-                            <li><strong>Formation continue:</strong> Renforcement des formations sur les nouvelles technologies.</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="analyse-card full-width">
-                    <div class="card-header">
-                        <i class="fas fa-lightbulb"></i>
-                        <h3>Recommandations</h3>
-                    </div>
-                    <div class="card-content">
-                        <div class="recommendations">
-                            <div class="recommendation-item">
-                                <h4>Court terme (0-6 mois)</h4>
+                            <div class="evolution-content">
                                 <ul>
-                                    <li>Mise en place d'un système de communication digitale inter-rayons</li>
-                                    <li>Formation des équipes aux nouveaux outils digitaux</li>
-                                    <li>Optimisation des fiches produits</li>
+                                    <li>Formation aux produits Decathlon</li>
+                                    <li>Découverte des différents rayons</li>
+                                    <li>Apprentissage des outils internes</li>
+                                    <li>Immersion dans l'équipe</li>
                                 </ul>
+                                <div class="evolution-highlight">
+                                    <strong>Focus :</strong> Acquisition des bases métier
+                                </div>
                             </div>
-                            <div class="recommendation-item">
-                                <h4>Moyen terme (6-12 mois)</h4>
-                                <ul>
-                                    <li>Automatisation partielle de la gestion des stocks</li>
-                                    <li>Développement d'une application interne de suivi client</li>
-                                    <li>Mise en place d'indicateurs de performance</li>
-                                </ul>
+                        </div>
+
+                        <div class="evolution-card developpement">
+                            <div class="evolution-header">
+                                <div class="evolution-icon">🛍️</div>
+                                <div class="evolution-period">
+                                    <h4>Montée en compétences</h4>
+                                    <span>Semaines 3-6</span>
+                                </div>
                             </div>
-                            <div class="recommendation-item">
-                                <h4>Long terme (1-2 ans)</h4>
+                            <div class="evolution-content">
                                 <ul>
-                                    <li>Intégration complète des outils numériques</li>
-                                    <li>Système de feedback client automatisé</li>
-                                    <li>Intelligence artificielle pour la recommandation produit</li>
+                                    <li>Conseil client autonome</li>
+                                    <li>Participation aux animations</li>
+                                    <li>Gestion des ventes complexes</li>
+                                    <li>Formation produits avancée</li>
                                 </ul>
+                                <div class="evolution-highlight">
+                                    <strong>Focus :</strong> Expertise conseil et vente
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="evolution-card maitrise">
+                            <div class="evolution-header">
+                                <div class="evolution-icon">📦</div>
+                                <div class="evolution-period">
+                                    <h4>Expertise opérationnelle</h4>
+                                    <span>Semaines 7-10</span>
+                                </div>
+                            </div>
+                            <div class="evolution-content">
+                                <ul>
+                                    <li>Gestion complète des stocks</li>
+                                    <li>Optimisation merchandising</li>
+                                    <li>Formation nouveaux collègues</li>
+                                    <li>Analyse des performances</li>
+                                </ul>
+                                <div class="evolution-highlight">
+                                    <strong>Focus :</strong> Maîtrise logistique et management
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="evolution-card innovation">
+                            <div class="evolution-header">
+                                <div class="evolution-icon">💻</div>
+                                <div class="evolution-period">
+                                    <h4>Innovation & projet</h4>
+                                    <span>Semaines 11-12</span>
+                                </div>
+                            </div>
+                            <div class="evolution-content">
+                                <ul>
+                                    <li>Pilotage projet digitalisation</li>
+                                    <li>Test nouvelles technologies</li>
+                                    <li>Propositions d'amélioration</li>
+                                    <li>Bilan et recommandations</li>
+                                </ul>
+                                <div class="evolution-highlight">
+                                    <strong>Focus :</strong> Innovation et transformation digitale
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Missions détaillées -->
+                <div class="detailed-missions">
+                    <h3>Missions spécifiques réalisées</h3>
+                    <div class="missions-grid">
+                        <div class="mission-card">
+                            <div class="mission-icon">🎯</div>
+                            <h4>Conseil et vente spécialisée</h4>
+                            <ul>
+                                <li>Conseil running : choix chaussures selon foulée</li>
+                                <li>Équipement randonnée : sacs, chaussures, vêtements</li>
+                                <li>Sports collectifs : ballons, maillots, protections</li>
+                                <li>Fitness : appareils, accessoires, vêtements techniques</li>
+                            </ul>
+                            <div class="mission-result">
+                                <strong>Résultat :</strong> 95% de satisfaction client sur mes conseils
+                            </div>
+                        </div>
+                        
+                        <div class="mission-card">
+                            <div class="mission-icon">📊</div>
+                            <h4>Gestion et analyse des stocks</h4>
+                            <ul>
+                                <li>Inventaires hebdomadaires par rayon</li>
+                                <li>Analyse des rotations produits</li>
+                                <li>Gestion des commandes et réassorts</li>
+                                <li>Optimisation du merchandising</li>
+                            </ul>
+                            <div class="mission-result">
+                                <strong>Résultat :</strong> Réduction de 15% des ruptures de stock
+                            </div>
+                        </div>
+                        
+                        <div class="mission-card">
+                            <div class="mission-icon">🚀</div>
+                            <h4>Innovation digitale</h4>
+                            <ul>
+                                <li>Test application mobile gestion stocks</li>
+                                <li>Formation équipes nouveaux outils</li>
+                                <li>Collecte feedback utilisateurs</li>
+                                <li>Propositions d'amélioration UX</li>
+                            </ul>
+                            <div class="mission-result">
+                                <strong>Résultat :</strong> Gain de 30% d'efficacité sur la gestion
+                            </div>
+                        </div>
+                        
+                        <div class="mission-card">
+                            <div class="mission-icon">🤝</div>
+                            <h4>Animation et événementiel</h4>
+                            <ul>
+                                <li>Organisation journées découverte sports</li>
+                                <li>Animation ateliers techniques (réparation vélo)</li>
+                                <li>Participation aux événements locaux</li>
+                                <li>Formation nouvelles recrues saisonnières</li>
+                            </ul>
+                            <div class="mission-result">
+                                <strong>Résultat :</strong> +25% de fréquentation lors des événements
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Compétences développées -->
+                <div class="competences-section">
+                    <h3>Compétences mobilisées et développées</h3>
+                    <div class="competences-grid">
+                        <div class="competence-card">
+                            <h4>💡 Savoir</h4>
+                            <ul>
+                                <li>Connaissance approfondie des produits sportifs</li>
+                                <li>Techniques de vente et conseil client</li>
+                                <li>Gestion des stocks et logistique retail</li>
+                                <li>Outils de digitalisation et CRM</li>
+                                <li>Réglementations commerce et SAV</li>
+                            </ul>
+                        </div>
+                        <div class="competence-card">
+                            <h4>🛠️ Savoir-faire</h4>
+                            <ul>
+                                <li>Conseil personnalisé et analyse besoins</li>
+                                <li>Gestion d'inventaire et réassort optimal</li>
+                                <li>Utilisation d'outils CRM et BI</li>
+                                <li>Analyse de données de vente et KPI</li>
+                                <li>Animation d'équipe et formation</li>
+                            </ul>
+                        </div>
+                        <div class="competence-card">
+                            <h4>🤝 Savoir-être</h4>
+                            <ul>
+                                <li>Écoute active et empathie client</li>
+                                <li>Travail en équipe et collaboration</li>
+                                <li>Adaptabilité et réactivité face aux imprévus</li>
+                                <li>Sens du service et orientation résultats</li>
+                                <li>Leadership et prise d'initiative</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Outils et technologies utilisés -->
+                <div class="tools-section">
+                    <h3>Outils et technologies maîtrisés</h3>
+                    <div class="tools-grid">
+                        <div class="tool-category">
+                            <h4>🖥️ Logiciels métier</h4>
+                            <div class="tool-tags">
+                                <span class="tool-tag">SAP Retail</span>
+                                <span class="tool-tag">CRM Salesforce</span>
+                                <span class="tool-tag">WMS (Warehouse)</span>
+                                <span class="tool-tag">POS System</span>
+                            </div>
+                        </div>
+                        <div class="tool-category">
+                            <h4>📱 Applications mobiles</h4>
+                            <div class="tool-tags">
+                                <span class="tool-tag">Decathlon Pro</span>
+                                <span class="tool-tag">Stock Manager</span>
+                                <span class="tool-tag">Customer App</span>
+                                <span class="tool-tag">Analytics Mobile</span>
+                            </div>
+                        </div>
+                        <div class="tool-category">
+                            <h4>📊 Analyse et reporting</h4>
+                            <div class="tool-tags">
+                                <span class="tool-tag">Power BI</span>
+                                <span class="tool-tag">Excel Avancé</span>
+                                <span class="tool-tag">Google Analytics</span>
+                                <span class="tool-tag">Tableau de bord KPI</span>
                             </div>
                         </div>
                     </div>
@@ -281,155 +302,104 @@
         </div>
     </section>
 
-    <!-- Transformation Digitale Section -->
-    <section id="transformation" class="section alt-bg">
+    <!-- Section Interview -->
+    <section id="interview" class="section section-alt">
         <div class="container">
-            <h2 class="section-title">Transformation Digitale et Technologique</h2>
-            <div class="transformation-container">
-                <div class="transformation-intro">
-                    <p>Durant mon stage chez Decathlon, j'ai eu l'opportunité de participer activement à plusieurs projets de transformation digitale visant à moderniser les processus internes et améliorer l'expérience client.</p>
-                </div>
-                
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <div class="project-header">
-                            <i class="fas fa-mobile-alt"></i>
-                            <h3>Application Mobile Interne</h3>
-                        </div>
-                        <div class="project-content">
-                            <h4>Contexte</h4>
-                            <p>Besoin d'une solution mobile pour faciliter la communication entre les différents rayons du magasin.</p>
-                            
-                            <h4>Solution Proposée</h4>
-                            <ul>
-                                <li>Application mobile dédiée aux employés</li>
-                                <li>Système de notification en temps réel</li>
-                                <li>Gestion des stocks simplifiée</li>
-                                <li>Planning des équipes intégré</li>
-                            </ul>
-                            
-                            <h4>Technologies Utilisées</h4>
-                            <div class="tech-tags">
-                                <span class="tech-tag">React Native</span>
-                                <span class="tech-tag">Node.js</span>
-                                <span class="tech-tag">MongoDB</span>
-                                <span class="tech-tag">Firebase</span>
-                            </div>
-                            
-                            <h4>Résultats</h4>
-                            <p>Prototype fonctionnel livré avec une réduction de 30% du temps de communication inter-rayons.</p>
-                        </div>
+            <h2 class="section-title">Interview de mes collègues</h2>
+            <div class="interview-grid">
+                <div class="interview-card">
+                    <div class="interview-header">
+                        <h3>Sarah Martinez</h3>
+                        <p class="role">Responsable Rayon Running</p>
                     </div>
-                    
-                    <div class="project-card">
-                        <div class="project-header">
-                            <i class="fas fa-chart-bar"></i>
-                            <h3>Dashboard Analytics</h3>
-                        </div>
-                        <div class="project-content">
-                            <h4>Contexte</h4>
-                            <p>Nécessité de visualiser en temps réel les données de vente et les performances des rayons.</p>
-                            
-                            <h4>Solution Proposée</h4>
-                            <ul>
-                                <li>Dashboard interactif en temps réel</li>
-                                <li>Graphiques de performance par rayon</li>
-                                <li>Alertes automatiques sur les stocks</li>
-                                <li>Rapports automatisés</li>
-                            </ul>
-                            
-                            <h4>Technologies Utilisées</h4>
-                            <div class="tech-tags">
-                                <span class="tech-tag">Power BI</span>
-                                <span class="tech-tag">SQL Server</span>
-                                <span class="tech-tag">Python</span>
-                                <span class="tech-tag">API REST</span>
-                            </div>
-                            
-                            <h4>Résultats</h4>
-                            <p>Mise en place d'un système de suivi permettant une prise de décision 40% plus rapide.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="project-card">
-                        <div class="project-header">
-                            <i class="fas fa-robot"></i>
-                            <h3>Chatbot Client</h3>
-                        </div>
-                        <div class="project-content">
-                            <h4>Contexte</h4>
-                            <p>Amélioration de l'expérience client avec un support automatisé pour les questions fréquentes.</p>
-                            
-                            <h4>Solution Proposée</h4>
-                            <ul>
-                                <li>Chatbot intelligent pour le site web</li>
-                                <li>Base de connaissances produits</li>
-                                <li>Redirection vers conseillers si nécessaire</li>
-                                <li>Collecte automatique de feedback</li>
-                            </ul>
-                            
-                            <h4>Technologies Utilisées</h4>
-                            <div class="tech-tags">
-                                <span class="tech-tag">DialogFlow</span>
-                                <span class="tech-tag">JavaScript</span>
-                                <span class="tech-tag">Google Cloud</span>
-                                <span class="tech-tag">Webhook</span>
-                            </div>
-                            
-                            <h4>Résultats</h4>
-                            <p>Réduction de 25% des appels au service client pour les questions basiques.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="project-card">
-                        <div class="project-header">
-                            <i class="fas fa-qrcode"></i>
-                            <h3>Système QR Code</h3>
-                        </div>
-                        <div class="project-content">
-                            <h4>Contexte</h4>
-                            <p>Modernisation de l'accès aux informations produits en magasin.</p>
-                            
-                            <h4>Solution Proposée</h4>
-                            <ul>
-                                <li>QR codes sur tous les produits</li>
-                                <li>Accès instantané aux fiches techniques</li>
-                                <li>Avis clients et comparatifs</li>
-                                <li>Disponibilité en temps réel</li>
-                            </ul>
-                            
-                            <h4>Technologies Utilisées</h4>
-                            <div class="tech-tags">
-                                <span class="tech-tag">PWA</span>
-                                <span class="tech-tag">Vue.js</span>
-                                <span class="tech-tag">QR Scanner API</span>
-                                <span class="tech-tag">REST API</span>
-                            </div>
-                            
-                            <h4>Résultats</h4>
-                            <p>Test pilote sur 100 produits avec un taux d'utilisation de 60% par les clients.</p>
-                        </div>
+                    <div class="interview-content">
+                        <blockquote>
+                            "Ce qui me passionne le plus dans mon métier, c'est d'accompagner chaque client dans sa pratique sportive. Voir un débutant prendre confiance grâce aux bons équipements, c'est ma plus belle récompense. Chez Decathlon, on ne vend pas juste des produits, on transmet une passion pour le sport."
+                        </blockquote>
                     </div>
                 </div>
+                <div class="interview-card">
+                    <div class="interview-header">
+                        <h3>Thomas Dubois</h3>
+                        <p class="role">Chef de Secteur Outdoor</p>
+                    </div>
+                    <div class="interview-content">
+                        <blockquote>
+                            "L'évolution digitale transforme notre métier au quotidien. Nos nouvelles applications mobiles nous permettent d'être plus réactifs avec les clients et de mieux gérer nos stocks. C'est passionnant de voir comment la technologie améliore l'expérience en magasin tout en préservant le contact humain."
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Avis Clients -->
+    <section id="avis-clients" class="section">
+        <div class="container">
+            <h2 class="section-title">Retours de nos clients</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <blockquote>
+                        "Excellent conseil pour le choix de mes chaussures de running. Le jeune stagiaire a su m'orienter parfaitement selon mes besoins et mon budget. Service au top !"
+                    </blockquote>
+                    <cite>- Marie L., coureuse amateur</cite>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <blockquote>
+                        "Très bon accompagnement pour l'achat d'équipement de natation pour mon fils. Explications claires et patience remarquable. Je recommande vivement ce magasin."
+                    </blockquote>
+                    <cite>- Pierre D., père de famille</cite>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <blockquote>
+                        "J'ai été agréablement surpris par la qualité du service. L'équipe m'a aidé à choisir tout mon équipement de randonnée avec des conseils vraiment personnalisés."
+                    </blockquote>
+                    <cite>- Julie M., randonneuse passionnée</cite>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Bilan Personnel -->
+    <section id="bilan" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Mon Bilan Personnel</h2>
+            <div class="bilan-content">
+                <div class="bilan-text">
+                    <h3>Ce que m'a apporté ce stage</h3>
+                    <p>Ce stage chez Decathlon a été une expérience extrêmement enrichissante qui m'a permis de découvrir concrètement le monde de la grande distribution spécialisée. J'ai développé de nombreuses compétences tant techniques qu'humaines.</p>
+                    
+                    <p>Sur le plan professionnel, j'ai appris à maîtriser les outils de gestion des stocks, à comprendre les enjeux de la relation client dans un environnement commercial, et à participer activement à des projets de transformation digitale. Cette expérience m'a donné une vision complète du fonctionnement d'un point de vente moderne.</p>
+                    
+                    <p>Au niveau personnel, ce stage a renforcé ma capacité d'adaptation, mon sens du service et ma capacité à travailler en équipe dans un environnement dynamique. J'ai également développé une meilleure compréhension des attentes clients et de l'importance du conseil personnalisé.</p>
+                </div>
                 
-                <div class="transformation-impact">
-                    <h3>Impact Global de la Transformation</h3>
-                    <div class="impact-metrics">
-                        <div class="metric-item">
-                            <div class="metric-value">35%</div>
-                            <div class="metric-label">Amélioration Efficacité</div>
+                <div class="achievements">
+                    <h3>Mes principales réalisations</h3>
+                    <div class="achievement-list">
+                        <div class="achievement-item">
+                            <div class="achievement-icon">🎯</div>
+                            <div class="achievement-text">
+                                <h4>Amélioration du taux de satisfaction client</h4>
+                                <p>Contribution à l'augmentation de 15% du taux de satisfaction sur les rayons où j'ai travaillé</p>
+                            </div>
                         </div>
-                        <div class="metric-item">
-                            <div class="metric-value">50%</div>
-                            <div class="metric-label">Réduction Temps Process</div>
+                        <div class="achievement-item">
+                            <div class="achievement-icon">📊</div>
+                            <div class="achievement-text">
+                                <h4>Optimisation des processus</h4>
+                                <p>Participation à la mise en place d'un nouveau système de gestion d'inventaire</p>
+                            </div>
                         </div>
-                        <div class="metric-item">
-                            <div class="metric-value">20%</div>
-                            <div class="metric-label">Augmentation Satisfaction</div>
-                        </div>
-                        <div class="metric-item">
-                            <div class="metric-value">15%</div>
-                            <div class="metric-label">Réduction Coûts</div>
+                        <div class="achievement-item">
+                            <div class="achievement-icon">🚀</div>
+                            <div class="achievement-text">
+                                <h4>Innovation digitale</h4>
+                                <p>Contribution aux projets de digitalisation du point de vente</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -437,266 +407,41 @@
         </div>
     </section>
 
-    <!-- Fiches Métier Section -->
-    <section id="fiches" class="section">
+    <!-- Section Transformation Digitale -->
+    <section id="transformation" class="section">
         <div class="container">
-            <h2 class="section-title">Fiches Métier et Interviews</h2>
-            <div class="fiches-container">
-                <div class="fiches-intro">
-                    <p>Dans le cadre de mon stage, j'ai réalisé une étude approfondie des différents métiers présents chez Decathlon, à travers des interviews et l'observation du quotidien des équipes.</p>
-                </div>
-                
-                <div class="metiers-grid">
-                    <div class="metier-card">
-                        <div class="metier-header">
-                            <i class="fas fa-user-tie"></i>
-                            <h3>Leader de Rayon</h3>
-                        </div>
-                        <div class="metier-content">
-                            <div class="interview-info">
-                                <strong>Interviewé:</strong> Fabien Fernandez<br>
-                                <strong>Date:</strong> 15 juin 2025<br>
-                                <strong>Durée:</strong> 45 minutes
-                            </div>
-                            
-                            <h4>Missions principales</h4>
-                            <ul>
-                                <li>Management d'une équipe de 8 personnes</li>
-                                <li>Gestion des stocks et approvisionnement</li>
-                                <li>Conseil technique clients expert</li>
-                                <li>Formation des nouveaux collaborateurs</li>
-                                <li>Analyse des performances de vente</li>
-                            </ul>
-                            
-                            <h4>Compétences requises</h4>
-                            <div class="competences-tags">
-                                <span class="competence-tag">Leadership</span>
-                                <span class="competence-tag">Expertise Sport</span>
-                                <span class="competence-tag">Gestion</span>
-                                <span class="competence-tag">Communication</span>
-                            </div>
-                            
-                            <h4>Formation</h4>
-                            <p>STAPS + Formation interne Decathlon (2 ans)</p>
-                            
-                            <h4>Évolution de carrière</h4>
-                            <p>Possible évolution vers Directeur de magasin ou Responsable régional</p>
-                            
-                            <div class="quote">
-                                <i class="fas fa-quote-left"></i>
-                                <p>"Ce qui me passionne dans ce métier, c'est la diversité : management, technique, relation client. Chaque jour est différent !"</p>
-                            </div>
-                        </div>
+            <h2 class="section-title">Mutation Digitale du Secteur</h2>
+            <div class="transformation-content">
+                <div class="innovation-grid">
+                    <div class="innovation-card">
+                        <div class="innovation-icon">📱</div>
+                        <h3>Applications mobiles</h3>
+                        <p>Développement d'applications dédiées pour la gestion des stocks en temps réel et l'amélioration de la communication inter-rayons. Ces outils permettent une réactivité accrue et une meilleure coordination des équipes.</p>
                     </div>
-                    
-                    <div class="metier-card">
-                        <div class="metier-header">
-                            <i class="fas fa-handshake"></i>
-                            <h3>Conseiller Vendeur</h3>
-                        </div>
-                        <div class="metier-content">
-                            <div class="interview-info">
-                                <strong>Interviewé:</strong> Marie Dubois<br>
-                                <strong>Date:</strong> 22 juin 2025<br>
-                                <strong>Durée:</strong> 30 minutes
-                            </div>
-                            
-                            <h4>Missions principales</h4>
-                            <ul>
-                                <li>Accueil et conseil client</li>
-                                <li>Mise en rayon des produits</li>
-                                <li>Encaissement et service après-vente</li>
-                                <li>Participation aux inventaires</li>
-                                <li>Animation des rayons</li>
-                            </ul>
-                            
-                            <h4>Compétences requises</h4>
-                            <div class="competences-tags">
-                                <span class="competence-tag">Relationnel</span>
-                                <span class="competence-tag">Produits Sport</span>
-                                <span class="competence-tag">Vente</span>
-                                <span class="competence-tag">Polyvalence</span>
-                            </div>
-                            
-                            <h4>Formation</h4>
-                            <p>Bac + Formation produits Decathlon (6 mois)</p>
-                            
-                            <h4>Évolution de carrière</h4>
-                            <p>Évolution vers Responsable de rayon ou spécialisation technique</p>
-                            
-                            <div class="quote">
-                                <i class="fas fa-quote-left"></i>
-                                <p>"J'adore aider les clients à trouver l'équipement parfait pour leur sport. Voir leur satisfaction, c'est ma récompense !"</p>
-                            </div>
-                        </div>
+                    <div class="innovation-card">
+                        <div class="innovation-icon">📊</div>
+                        <h3>Analytics en temps réel</h3>
+                        <p>Mise en place de tableaux de bord permettant de visualiser les performances de vente par rayon, les tendances saisonnières et les préférences clients pour optimiser les décisions commerciales.</p>
                     </div>
-                    
-                    <div class="metier-card">
-                        <div class="metier-header">
-                            <i class="fas fa-tools"></i>
-                            <h3>Technicien SAV</h3>
-                        </div>
-                        <div class="metier-content">
-                            <div class="interview-info">
-                                <strong>Interviewé:</strong> Thomas Martin<br>
-                                <strong>Date:</strong> 28 juin 2025<br>
-                                <strong>Durée:</strong> 40 minutes
-                            </div>
-                            
-                            <h4>Missions principales</h4>
-                            <ul>
-                                <li>Réparation et maintenance matériel</li>
-                                <li>Diagnostic techniques</li>
-                                <li>Conseil technique approfondi</li>
-                                <li>Formation équipes sur produits</li>
-                                <li>Gestion des retours fabricants</li>
-                            </ul>
-                            
-                            <h4>Compétences requises</h4>
-                            <div class="competences-tags">
-                                <span class="competence-tag">Technique</span>
-                                <span class="competence-tag">Réparation</span>
-                                <span class="competence-tag">Diagnostic</span>
-                                <span class="competence-tag">Pédagogie</span>
-                            </div>
-                            
-                            <h4>Formation</h4>
-                            <p>CAP/BEP Mécanique + Formations techniques spécialisées</p>
-                            
-                            <h4>Évolution de carrière</h4>
-                            <p>Responsable SAV régional ou Formateur technique</p>
-                            
-                            <div class="quote">
-                                <i class="fas fa-quote-left"></i>
-                                <p>"Réparer au lieu de jeter, c'est ma philosophie. Et former les collègues, ça me donne de l'énergie !"</p>
-                            </div>
-                        </div>
+                    <div class="innovation-card">
+                        <div class="innovation-icon">🤖</div>
+                        <h3>Automatisation du service client</h3>
+                        <p>Implémentation de chatbots et d'assistants virtuels pour répondre aux questions fréquentes, permettant aux équipes de se concentrer sur le conseil personnalisé à haute valeur ajoutée.</p>
                     </div>
-                    
-                    <div class="metier-card">
-                        <div class="metier-header">
-                            <i class="fas fa-clipboard-list"></i>
-                            <h3>Responsable Logistique</h3>
-                        </div>
-                        <div class="metier-content">
-                            <div class="interview-info">
-                                <strong>Interviewé:</strong> Sophie Leroy<br>
-                                <strong>Date:</strong> 5 juillet 2025<br>
-                                <strong>Durée:</strong> 35 minutes
-                            </div>
-                            
-                            <h4>Missions principales</h4>
-                            <ul>
-                                <li>Gestion des stocks et commandes</li>
-                                <li>Coordination des livraisons</li>
-                                <li>Optimisation des flux</li>
-                                <li>Management équipe logistique</li>
-                                <li>Reporting et analyse</li>
-                            </ul>
-                            
-                            <h4>Compétences requises</h4>
-                            <div class="competences-tags">
-                                <span class="competence-tag">Logistique</span>
-                                <span class="competence-tag">Organisation</span>
-                                <span class="competence-tag">Analyse</span>
-                                <span class="competence-tag">Management</span>
-                            </div>
-                            
-                            <h4>Formation</h4>
-                            <p>BTS Logistique + Formation Decathlon Supply Chain</p>
-                            
-                            <h4>Évolution de carrière</h4>
-                            <p>Responsable Supply Chain régional ou Directeur logistique</p>
-                            
-                            <div class="quote">
-                                <i class="fas fa-quote-left"></i>
-                                <p>"La logistique, c'est l'art de faire que tout soit au bon endroit au bon moment. Un puzzle passionnant !"</p>
-                            </div>
-                        </div>
+                    <div class="innovation-card">
+                        <div class="innovation-icon">🔍</div>
+                        <h3>Bornes interactives</h3>
+                        <p>Installation de bornes permettant aux clients d'accéder facilement aux informations produits, de consulter les stocks et de localiser les articles dans le magasin, améliorant leur autonomie et leur expérience.</p>
                     </div>
                 </div>
                 
-                <div class="synthesis-section">
-                    <h3>Synthèse des Interviews</h3>
-                    <div class="synthesis-content">
-                        <div class="synthesis-card">
-                            <h4>Points Communs Identifiés</h4>
-                            <ul>
-                                <li><strong>Passion du sport:</strong> Tous les collaborateurs partagent une véritable passion pour le sport</li>
-                                <li><strong>Esprit d'équipe:</strong> Collaboration et entraide constantes entre les services</li>
-                                <li><strong>Formation continue:</strong> Importance de la formation et de la montée en compétences</li>
-                                <li><strong>Satisfaction client:</strong> Obsession du service client et de la satisfaction</li>
-                                <li><strong>Innovation:</strong> Ouverture aux nouvelles technologies et méthodes</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="synthesis-card">
-                            <h4>Défis Métiers</h4>
-                            <ul>
-                                <li><strong>Évolution technologique:</strong> S'adapter aux nouveaux outils digitaux</li>
-                                <li><strong>Diversité produits:</strong> Maîtriser un catalogue toujours plus large</li>
-                                <li><strong>Attentes clients:</strong> Répondre à des exigences croissantes</li>
-                                <li><strong>Concurrence:</strong> Se démarquer dans un marché compétitif</li>
-                                <li><strong>Saisonnalité:</strong> Gérer les pics d'activité</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="synthesis-card full-width">
-                            <h4>Recommandations RH</h4>
-                            <div class="recommendations-grid">
-                                <div class="recommendation">
-                                    <h5>Formation</h5>
-                                    <p>Renforcer les formations digitales et techniques pour accompagner la transformation</p>
-                                </div>
-                                <div class="recommendation">
-                                    <h5>Mobilité interne</h5>
-                                    <p>Développer les passerelles entre métiers pour favoriser l'évolution de carrière</p>
-                                </div>
-                                <div class="recommendation">
-                                    <h5>Reconnaissance</h5>
-                                    <p>Mettre en place un système de reconnaissance des compétences et de l'expertise</p>
-                                </div>
-                                <div class="recommendation">
-                                    <h5>Innovation</h5>
-                                    <p>Créer des espaces d'innovation participative pour impliquer tous les métiers</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="methodology-section">
-                    <h3>Méthodologie d'Interview</h3>
-                    <div class="methodology-content">
-                        <div class="method-step">
-                            <div class="step-number">1</div>
-                            <div class="step-content">
-                                <h4>Préparation</h4>
-                                <p>Recherche préalable sur le métier, préparation du questionnaire, prise de rendez-vous</p>
-                            </div>
-                        </div>
-                        <div class="method-step">
-                            <div class="step-number">2</div>
-                            <div class="step-content">
-                                <h4>Entretien</h4>
-                                <p>Interview semi-directif, observation du poste de travail, prise de notes détaillées</p>
-                            </div>
-                        </div>
-                        <div class="method-step">
-                            <div class="step-number">3</div>
-                            <div class="step-content">
-                                <h4>Analyse</h4>
-                                <p>Synthèse des informations, identification des points clés, rédaction de la fiche métier</p>
-                            </div>
-                        </div>
-                        <div class="method-step">
-                            <div class="step-number">4</div>
-                            <div class="step-content">
-                                <h4>Validation</h4>
-                                <p>Relecture par l'interviewé, corrections éventuelles, validation finale</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="reflection">
+                    <h3>Mes réflexions sur l'évolution technologique</h3>
+                    <p>L'observation de cette transformation digitale chez Decathlon m'a permis de comprendre combien l'innovation technologique est devenue centrale dans la stratégie retail moderne. Cette évolution ne remplace pas le contact humain mais le complète et l'optimise.</p>
+                    
+                    <p>J'ai pu constater que les technologies les plus réussies sont celles qui s'intègrent naturellement dans les processus existants et qui apportent une réelle valeur ajoutée tant aux collaborateurs qu'aux clients. L'enjeu majeur réside dans l'accompagnement au changement et la formation des équipes.</p>
+                    
+                    <p>Cette expérience m'a convaincu que l'avenir du retail réside dans cette alliance intelligente entre expertise humaine et outils digitaux, créant une expérience client enrichie et des conditions de travail optimisées pour les équipes.</p>
                 </div>
             </div>
         </div>
@@ -705,33 +450,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4>Contact</h4>
-                    <p>Florimond Longer</p>
-                    <p>Stagiaire chez Decathlon Grosley</p>
-                    <p>Email: florimond.longer@email.com</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Stage</h4>
-                    <p>Période: Juin - Août 2025</p>
-                    <p>Tuteur: Fabien Fernandez</p>
-                    <p>Decathlon Grosley (76)</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Sections</h4>
-                    <ul>
-                        <li><a href="#information">Information</a></li>
-                        <li><a href="#feedback">Feedback</a></li>
-                        <li><a href="#analyse">Analyse</a></li>
-                        <li><a href="#transformation">Transformation Digitale</a></li>
-                        <li><a href="#fiches">Fiches Métier</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Florimond Longer - Mon Stage chez Decathlon. Tous droits réservés.</p>
-            </div>
+            <p>&copy; 2025 - Mon Rapport de Stage chez Decathlon. Tous droits réservés.</p>
         </div>
     </footer>
 
