@@ -292,31 +292,7 @@ function removeMobileMenuButton() {
     }
 }
 
-// === CONTRÔLES D'ARRIÈRE-PLAN ANIMÉ ===
-function initializeBackgroundControls() {
-    // Créer le panneau de contrôle des animations
-    createBackgroundControlPanel();
-    
-    // Changer automatiquement de fond toutes les 30 secondes
-    setInterval(() => {
-        if (document.hidden) return; // Ne pas changer si l'onglet n'est pas visible
-        changeBackgroundMode();
-    }, 30000);
-}
 
-function createBackgroundControlPanel() {
-    const controlPanel = document.createElement('div');
-    controlPanel.className = 'background-controls';
-    controlPanel.innerHTML = `
-        <div class="control-panel">
-            <h4>Fond Animé</h4>
-            <button onclick="setBackgroundMode('gradient')" class="bg-btn active" data-mode="gradient">Dégradé</button>
-            <button onclick="setBackgroundMode('particles')" class="bg-btn" data-mode="particles">Particules</button>
-            <button onclick="setBackgroundMode('waves')" class="bg-btn" data-mode="waves">Vagues</button>
-            <button onclick="setBackgroundMode('geometric')" class="bg-btn" data-mode="geometric">Géométrique</button>
-        </div>
-    `;
-    
     // Ajouter les styles du panneau
     const style = document.createElement('style');
     style.textContent = `
