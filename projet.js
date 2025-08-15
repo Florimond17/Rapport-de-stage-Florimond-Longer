@@ -17,35 +17,35 @@ const missionData = {
                 
                 <div class="achievement-highlights">
                     <div class="highlight">
-                        <strong>organisation mise en place :</strong>
-                        <span>Chaque membre de l'équipe logistique était affilié a une tache, et nous changions de poste tout les matins :</span>
+                        <strong>Organisation mise en place :</strong>
+                        <span>Chaque membre de l'équipe logistique était affilié a une tache, et nous changions de poste tous les matins :</span>
                             <ul>
-                                <li>Aller chercher les candidats a la gare.</li>
-                                <li>S'occuper de L'accueil a l'extérieur de l'établissement afin de convergé tout les candidat dans le hall B.</li>
-                                <li>Accueil intérieur pour guidé les candidats dans la procédure d'enregistrement et leur données des informations sur les potentiel questions.</li>
-                                <li>Scanner les QR code qui justifiait la dit présence du candidat pour la journée.</li>
+                                <li>Aller chercher les candidats à la gare.</li>
+                                <li>S'occuper de L'accueil à l'extérieur de l'établissement afin de converger tous les candidats dans le hall B.</li>
+                                <li>Accueil intérieur pour guider les candidats dans la procédure d'enregistrement et leur donner des informations sur les potentielles questions.</li>
+                                <li>Scanner les QR codes qui justifiaient la présence du candidat pour la journée.</li>
                                 <li>Le stand informations pour l'explication du déroulement de la journée.</li>
                                 <li>Le stand petit déjeuner, qui était mis en place pour détendre les candidats et discuter avec eux.</li>
-                                <li>Le volant cette personne était la en renfort si au autre poste avait besoin d'aide du a un sur nombre de candidats</li>
+                                <li>Le "volant" : ce poste servait de renfort si d'autres collègues avaient besoin d'aide (dû au nombre de candidats par exemple)</li>
                             </ul>
                     </div>
                     <div class="highlight">
                         <strong>Durée :</strong>
-                        <span>tout les matins de 9 h à 12 h</span>
+                        <span>tous les matins de 9 h à 12 h</span>
                     </div>
                     <div class="highlight">
                         <strong>Résultat :</strong>
-                        <span>Des avis positifs et une journée inoubliable pour chaque candidats.</span>
+                        <span>Des avis positifs et une journée inoubliable pour chaque candidat.</span>
                     </div>
                 </div>
                 
                 <div class="technical-details">
                     <h5>Défis relevés :</h5>
                     <ul>
-                        <li>Ne pas perdre et oublié des candidats a la gare.</li>
-                        <li>Gérer les candidats en retard ou perdu.</li>
-                        <li>Prise en charges des parents.</li>
-                        <li>Les faire patienter en attendant l'arrivé de tout le monde pour commencer la journée.</li>
+                        <li>Ne pas perdre et oublier des candidats à la gare.</li>
+                        <li>Gérer les candidats en retard ou perdus.</li>
+                        <li>Prise en charge des parents.</li>
+                        <li>Les faire patienter en attendant l'arrivée de tout le monde pour commencer la journée.</li>
                     </ul>
                 </div>
             </div>
@@ -61,7 +61,7 @@ const missionData = {
                     Dans ces échanges, l’admisseur devient un véritable point d’appui temporaire. Ce rôle demande de la sensibilité, de la discrétion et une grande capacité d’adaptation pour répondre à des situations parfois très personnelles, tout en restant fidèle à une posture de neutralité.</p>
                 
                 <div class="technical-details">
-                    <h5>exemples de conseil que j'ai rencontrer :</h5>
+                    <h5>exemples de conseil que j'ai rencontré :</h5>
                     <ul>
                         <li>Une étudiante m’a confié avoir grandi dans un milieu où l’on lui avait toujours enseigné que seule une classe préparatoire était une voie possible pour son avenir.
                             Elle m’a avoué ne pas se sentir capable d’en suivre une, c’est pourquoi elle se retrouvait à passer les concours post-bac.
@@ -87,12 +87,12 @@ const missionData = {
                 </p>
 
  <div class="technical-details">
-                    <h5>Connaisance essentiel :</h5>
+                    <h5>Connaissance essentielles :</h5>
                     <ul>
-                        <li>Le programme BBA voie Générale et la voie Doubles diplomes</li>
-                        <li>Le programme TEMA avec ces spécificités et des débouchés</li>
+                        <li>Le programme BBA voie Générale et la voie Doubles diplômes</li>
+                        <li>Le programme TEMA avec ses spécificités et ses débouchés</li>
                         <li>Des différentes associations</li>
-                        <li>De l'influence de l'école et des différentes services quelle propose </li>
+                        <li>De l'influence de l'école et des différents services qu'elle propose </li>
                     </ul>
                 </div>
             </div>
@@ -109,9 +109,9 @@ const missionData = {
                 <div class="technical-details">
                     <h5>Rôle particulier :</h5>
                     <ul>
-                        <li>être appelé a chaque intérogation des étudiants</li>
-                        <li>Représanté le programme au prets des autres admisseurs</li>
-                        <li>Faire un sptich durant l'amphie de présentation sur mon expérience du programme</li>
+                        <li>être appelé à chaque intérrogation des étudiants</li>
+                        <li>Représanter le programme auprès des autres admisseurs</li>
+                        <li>Faire un sptich durant l'amphi de présentation sur mon expérience du programme</li>
                     </ul>
                 </div>
             </div>
@@ -149,10 +149,10 @@ Pour assurer un bon déroulement, nous communiquions en continu via un groupe pr
                 <div class="technical-details">
                     <h5>Organisation</h5>
                     <ul>
-                        <li>2 étudiants au tableau a lister les candidats</li>
-                        <li>3 étudiants dans le hall a appeler les vagues horraires et les étudiants en retard</li>
-                        <li>7 étudiants a faire des allé retours dans les étages pour déposer les adilissbles dans leurs salles de concours</li>
-                        <li>1 étudiant par étage pour discuter avec les admissibles qui patientais</li>
+                        <li>2 étudiants au tableau à lister les candidats</li>
+                        <li>3 étudiants dans le hall à appeler les vagues horraires et les étudiants en retard</li>
+                        <li>7 étudiants à faire des allé retours dans les étages pour déposer les adilissbles dans leurs salles de concours</li>
+                        <li>1 étudiant par étage pour discuter avec les admissibles qui patientaient</li>
                     </ul>
                 </div>
             </div>
@@ -318,11 +318,200 @@ function initializeHeaderScroll() {
     }, 100));
 }
 
-// === CARTES DE RÉALISATIONS INTERACTIVES ===
-function initializeRealisationCards() {
-    const realisationCards = document.querySelectorAll('.realisation-card');
+// === SOLUTION COMPLÈTE POUR LES MODALES ===
+
+// Variables globales pour le modal
+let currentModal = null;
+let isModalOpen = false;
+
+// === INITIALISATION DU SYSTÈME DE MODALES ===
+function initializeModalSystem() {
+    console.log('🔧 Initialisation du système de modales...');
     
-    realisationCards.forEach(card => {
+    // Créer le modal s'il n'existe pas
+    createModalIfNotExists();
+    
+    // Attendre que le DOM soit complètement chargé
+    setTimeout(() => {
+        setupModalEventListeners();
+        console.log('✅ Système de modales initialisé');
+    }, 100);
+}
+
+// === CRÉER LE MODAL DANS LE DOM ===
+function createModalIfNotExists() {
+    let modal = document.getElementById('missionModal');
+    
+    if (!modal) {
+        console.log('📝 Création du modal dans le DOM...');
+        modal = document.createElement('div');
+        modal.id = 'missionModal';
+        modal.className = 'modal-overlay';
+        modal.innerHTML = `
+            <div class="modal-content">
+                <button class="modal-close" type="button" aria-label="Fermer">&times;</button>
+                <div class="modal-body">
+                    <h3 id="modalTitle"></h3>
+                    <div id="modalContent"></div>
+                </div>
+            </div>
+        `;
+        document.body.appendChild(modal);
+    }
+    
+    currentModal = modal;
+}
+
+// === CONFIGURATION DES EVENT LISTENERS ===
+function setupModalEventListeners() {
+    if (!currentModal) {
+        console.error('❌ Modal non trouvé');
+        return;
+    }
+    
+    // 1. Bouton fermer
+    const closeBtn = currentModal.querySelector('.modal-close');
+    if (closeBtn) {
+        // Supprimer les anciens listeners
+        closeBtn.removeEventListener('click', handleCloseClick);
+        // Ajouter le nouveau
+        closeBtn.addEventListener('click', handleCloseClick);
+        console.log('✅ Event listener bouton fermer ajouté');
+    } else {
+        console.error('❌ Bouton fermer non trouvé');
+    }
+    
+    // 2. Clic en dehors du modal
+    currentModal.removeEventListener('click', handleOverlayClick);
+    currentModal.addEventListener('click', handleOverlayClick);
+    console.log('✅ Event listener overlay ajouté');
+    
+    // 3. Empêcher la propagation sur le contenu
+    const modalContent = currentModal.querySelector('.modal-content');
+    if (modalContent) {
+        modalContent.removeEventListener('click', handleContentClick);
+        modalContent.addEventListener('click', handleContentClick);
+        console.log('✅ Event listener contenu ajouté');
+    }
+    
+    // 4. Touche Échap (global)
+    document.removeEventListener('keydown', handleKeyDown);
+    document.addEventListener('keydown', handleKeyDown);
+    console.log('✅ Event listener clavier ajouté');
+}
+
+// === GESTIONNAIRES D'ÉVÉNEMENTS ===
+function handleCloseClick(e) {
+    console.log('🖱️ Clic sur bouton fermer');
+    e.preventDefault();
+    e.stopPropagation();
+    closeMissionModal();
+}
+
+function handleOverlayClick(e) {
+    console.log('🖱️ Clic sur overlay', e.target.className);
+    // Fermer seulement si on clique sur l'overlay lui-même
+    if (e.target === currentModal || e.target.classList.contains('modal-overlay')) {
+        closeMissionModal();
+    }
+}
+
+function handleContentClick(e) {
+    console.log('🖱️ Clic sur contenu - propagation stoppée');
+    e.stopPropagation();
+}
+
+function handleKeyDown(e) {
+    if (e.key === 'Escape' && isModalOpen) {
+        console.log('⌨️ Touche Échap pressée');
+        closeMissionModal();
+    }
+}
+
+// === OUVERTURE DU MODAL ===
+function openMissionModal(missionId) {
+    console.log('🚀 Ouverture modal pour mission:', missionId);
+    
+    if (!currentModal) {
+        console.error('❌ Modal non disponible');
+        return;
+    }
+    
+    const modalTitle = currentModal.querySelector('#modalTitle');
+    const modalContent = currentModal.querySelector('#modalContent');
+    
+    if (!modalTitle || !modalContent) {
+        console.error('❌ Éléments modal non trouvés');
+        return;
+    }
+    
+    const mission = missionData[missionId];
+    if (!mission) {
+        console.error('❌ Mission non trouvée:', missionId);
+        return;
+    }
+    
+    // Mise à jour du contenu
+    modalTitle.textContent = mission.title;
+    modalContent.innerHTML = mission.content;
+    
+    // Affichage
+    currentModal.style.display = 'flex';
+    requestAnimationFrame(() => {
+        currentModal.classList.add('active');
+        isModalOpen = true;
+        document.body.style.overflow = 'hidden';
+        console.log('✅ Modal ouvert');
+    });
+}
+
+// === FERMETURE DU MODAL ===
+function closeMissionModal() {
+    console.log('🔒 Fermeture du modal');
+    
+    if (!currentModal || !isModalOpen) {
+        console.log('⚠️ Modal déjà fermé ou non disponible');
+        return;
+    }
+    
+    // Animation de fermeture
+    currentModal.classList.remove('active');
+    isModalOpen = false;
+    
+    // Restaurer le scroll
+    document.body.style.overflow = 'auto';
+    
+    // Masquer après l'animation
+    setTimeout(() => {
+        if (currentModal) {
+            currentModal.style.display = 'none';
+            
+            // Nettoyer le contenu
+            const modalContent = currentModal.querySelector('#modalContent');
+            const modalTitle = currentModal.querySelector('#modalTitle');
+            
+            if (modalContent) modalContent.innerHTML = '';
+            if (modalTitle) modalTitle.textContent = '';
+        }
+        console.log('✅ Modal fermé');
+    }, 300);
+}
+
+// === INITIALISATION DES CARTES ===
+function initializeRealisationCards() {
+    console.log('🃏 Initialisation des cartes...');
+    
+    const realisationCards = document.querySelectorAll('.realisation-card');
+    console.log('📊 Nombre de cartes trouvées:', realisationCards.length);
+    
+    realisationCards.forEach((card, index) => {
+        // Supprimer les anciens listeners
+        card.removeEventListener('click', handleCardClick);
+        
+        // Ajouter le nouveau listener
+        card.addEventListener('click', handleCardClick);
+        
+        // Effets hover
         card.addEventListener('mouseenter', function() {
             this.style.transform = 'translateY(-10px) scale(1.05)';
             this.style.boxShadow = '0 20px 40px rgba(0, 130, 195, 0.3)';
@@ -333,67 +522,61 @@ function initializeRealisationCards() {
             this.style.boxShadow = '0 10px 25px rgba(0, 0, 0, 0.1)';
         });
         
-        card.addEventListener('click', function() {
-            const missionId = this.getAttribute('data-mission');
-            openMissionModal(missionId);
-        });
+        console.log(`✅ Carte ${index + 1} initialisée`);
     });
 }
 
-// === SYSTÈME DE MODALES ===
-function initializeModalSystem() {
-    const modal = document.getElementById('missionModal');
-    const closeBtn = document.querySelector('.modal-close');
+function handleCardClick(e) {
+    const card = e.currentTarget;
+    const missionId = card.getAttribute('data-mission');
+    console.log('🃏 Clic sur carte, mission ID:', missionId);
     
-    closeBtn.addEventListener('click', closeMissionModal);
-    
-    modal.addEventListener('click', function(e) {
-        if (e.target === modal) {
-            closeMissionModal();
-        }
-    });
-    
-    document.addEventListener('keydown', function(e) {
-        if (e.key === 'Escape' && modal.classList.contains('active')) {
-            closeMissionModal();
-        }
-    });
-}
-
-function openMissionModal(missionId) {
-    const modal = document.getElementById('missionModal');
-    const modalTitle = document.getElementById('modalTitle');
-    const modalContent = document.getElementById('modalContent');
-    
-    const mission = missionData[missionId];
-    if (mission) {
-        modalTitle.textContent = mission.title;
-        modalContent.innerHTML = mission.content;
-        
-        modal.classList.add('active');
-        document.body.style.overflow = 'hidden';
-        
-        // Animation d'entrée
-        setTimeout(() => {
-            modal.querySelector('.modal-content').style.transform = 'translate(-50%, -50%) scale(1)';
-            modal.querySelector('.modal-content').style.opacity = '1';
-        }, 10);
+    if (missionId) {
+        openMissionModal(missionId);
+    } else {
+        console.error('❌ Mission ID non trouvé sur la carte');
     }
 }
 
-function closeMissionModal() {
-    const modal = document.getElementById('missionModal');
-    const modalContentEl = modal.querySelector('.modal-content');
+// === FONCTION DE DEBUG ===
+function debugModal() {
+    console.log('🐛 Debug Modal:');
+    console.log('- Modal element:', currentModal);
+    console.log('- Modal open:', isModalOpen);
+    console.log('- Modal classes:', currentModal?.className);
+    console.log('- Modal display:', currentModal?.style.display);
     
-    modalContentEl.style.transform = 'translate(-50%, -50%) scale(0.9)';
-    modalContentEl.style.opacity = '0';
+    const closeBtn = currentModal?.querySelector('.modal-close');
+    console.log('- Close button:', closeBtn);
     
-    setTimeout(() => {
-        modal.classList.remove('active');
-        document.body.style.overflow = 'auto';
-    }, 300);
+    const cards = document.querySelectorAll('.realisation-card');
+    console.log('- Cards found:', cards.length);
+    
+    cards.forEach((card, i) => {
+        console.log(`- Card ${i}:`, card.getAttribute('data-mission'));
+    });
 }
 
+// === EXPOSITION GLOBALE POUR DEBUG ===
+window.debugModal = debugModal;
+window.closeMissionModal = closeMissionModal;
+window.openMissionModal = openMissionModal;
+
+// === INITIALISATION AUTOMATIQUE ===
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('📄 DOM chargé, initialisation des modales...');
+    
+    setTimeout(() => {
+        initializeModalSystem();
+        initializeRealisationCards();
+        
+        // Debug automatique
+        setTimeout(() => {
+            console.log('🔍 Debug automatique:');
+            debugModal();
+        }, 500);
+    }, 100);
+});
 
 
 // === MENU MOBILE ===
