@@ -281,7 +281,7 @@ function acceptCookies() {
     document.querySelector('.cookie-notice').remove();
 }
 
-// Initialisation finale
+// Initialisation fina
 document.addEventListener('DOMContentLoaded', function() {
     console.log('Rapport de stage chargé avec succès !');
     
